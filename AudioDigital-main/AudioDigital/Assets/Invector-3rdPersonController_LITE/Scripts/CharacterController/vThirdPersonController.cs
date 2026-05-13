@@ -156,41 +156,24 @@ namespace Invector.vCharacterController
 
         public void PlayFootstep()
         {
-            // Safety checks with specific logs
-            if (audioSource == null)
-            {
-                Debug.LogWarning("PlayFootstep called but <b>AudioSource</b> is missing!");
-                return;
-            }
-            if (footstepManager == null)
-            {
-                Debug.LogWarning("PlayFootstep called but <b>FootStepsManager</b> is not assigned!");
-                return;
-            }
+            Debug.Log("<color=orange>!!! ANIMATION EVENT TRIGGERED !!!</color>");
 
-            bool surfaceFound = false;
             foreach (var surfaceData in footstepManager.m_FootstepsSurfaces)
             {
                 if (surfaceData.surfaceType == currentSurface)
                 {
-                    surfaceFound = true;
                     AudioClip clip = surfaceData.GetRandomClip();
                     if (clip != null)
                     {
-                        Debug.Log($"Playing footstep: <b>{clip.name}</b> for surface: <b>{currentSurface}</b>");
+                        Debug.Log($"<color=cyan>Audio Triggered:</color> Playing {clip.name} at volume {audioSource.volume}");
                         audioSource.PlayOneShot(clip);
                     }
                     else
                     {
-                        Debug.LogWarning($"No AudioClips found in FootStepsManager for surface: <b>{currentSurface}</b>");
+                        Debug.LogError($"Surface {currentSurface} found, but NO CLIPS are assigned in the list!");
                     }
                     return;
                 }
-            }
-
-            if (!surfaceFound)
-            {
-                Debug.LogWarning($"Surface <b>{currentSurface}</b> was not found in the FootStepsManager list!");
             }
         }
     }
