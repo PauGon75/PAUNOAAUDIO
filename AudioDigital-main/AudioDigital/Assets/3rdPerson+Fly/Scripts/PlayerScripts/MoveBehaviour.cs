@@ -218,8 +218,13 @@ public class MoveBehaviour : GenericBehaviour
 		GetComponent<CapsuleCollider>().material.staticFriction = 0.6f;
 	}
 
+
+	//HERE
     public void PlayFootstep()
     {
-		audioSource.Play();
+		//Safety check
+        if (audioSource == null || footsteps == null || footsteps.Length == 0) return;
+        audioSource.resource = footsteps[(int)surface];
+        audioSource.Play();
     }
 }

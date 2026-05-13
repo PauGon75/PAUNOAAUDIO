@@ -1,9 +1,22 @@
 ﻿using UnityEngine;
+using UnityEngine.Audio;
 
 namespace Invector.vCharacterController
 {
     public class vThirdPersonController : vThirdPersonAnimator
     {
+        public enum TerrainType
+        {
+            GRASS,
+            SAND,
+            CONCRETE
+        };
+
+        [SerializeField] private AudioSource audioSource;
+        [SerializeField] private FootStepsManager footstepManager;
+
+        private TerrainType currentSurface = TerrainType.GRASS;
+
         public virtual void ControlAnimatorRootMotion()
         {
             if (!this.enabled) return;
@@ -46,9 +59,7 @@ namespace Invector.vCharacterController
 
             if (validInput)
             {
-                // calculate input smooth
                 inputSmooth = Vector3.Lerp(inputSmooth, input, (isStrafing ? strafeSpeed.movementSmooth : freeSpeed.movementSmooth) * Time.deltaTime);
-
                 Vector3 dir = (isStrafing && (!isSprinting || sprintOnlyFree == false) || (freeSpeed.rotateWithCamera && input == Vector3.zero)) && rotateTarget ? rotateTarget.forward : moveDirection;
                 RotateToDirection(dir);
             }
@@ -56,6 +67,10 @@ namespace Invector.vCharacterController
 
         public virtual void UpdateMoveDirection(Transform referenceTransform = null)
         {
+            if (isGrounded)
+            {
+                CheckTerrain();
+            }
             if (input.magnitude <= 0.01)
             {
                 moveDirection = Vector3.Lerp(moveDirection, Vector3.zero, (isStrafing ? strafeSpeed.movementSmooth : freeSpeed.movementSmooth) * Time.deltaTime);
@@ -64,12 +79,9 @@ namespace Invector.vCharacterController
 
             if (referenceTransform && !rotateByWorld)
             {
-                //get the right-facing direction of the referenceTransform
                 var right = referenceTransform.right;
                 right.y = 0;
-                //get the forward direction relative to referenceTransform Right
                 var forward = Quaternion.AngleAxis(-90, Vector3.up) * right;
-                // determine the direction the player will face based on input and the referenceTransform's right and forward directions
                 moveDirection = (inputSmooth.x * right) + (inputSmooth.z * forward);
             }
             else
@@ -114,15 +126,72 @@ namespace Invector.vCharacterController
 
         public virtual void Jump()
         {
-            // trigger jump behaviour
             jumpCounter = jumpTimer;
             isJumping = true;
 
-            // trigger jump animations
             if (input.sqrMagnitude < 0.1f)
                 animator.CrossFadeInFixedTime("Jump", 0.1f);
             else
                 animator.CrossFadeInFixedTime("JumpMove", .2f);
+        }
+
+        private void CheckTerrain()
+        {
+            RaycastHit hit;
+            if (Physics.Raycast(transform.position + Vector3.up * 0.1f, Vector3.down, out hit, 0.5f))
+            {
+                TerrainType previousSurface = currentSurface;
+
+                if (hit.collider.CompareTag("Grass")) currentSurface = TerrainType.GRASS;
+                else if (hit.collider.CompareTag("Sand")) currentSurface = TerrainType.SAND;
+                else if (hit.collider.CompareTag("Concrete")) currentSurface = TerrainType.CONCRETE;
+
+                // Log only when the surface actually changes to avoid spamming the console
+                if (previousSurface != currentSurface)
+                {
+                    Debug.Log($"<color=green>Surface Changed:</color> Now standing on <b>{currentSurface}</b> (Hit: {hit.collider.name})");
+                }
+            }
+        }
+
+        public void PlayFootstep()
+        {
+            // Safety checks with specific logs
+            if (audioSource == null)
+            {
+                Debug.LogWarning("PlayFootstep called but <b>AudioSource</b> is missing!");
+                return;
+            }
+            if (footstepManager == null)
+            {
+                Debug.LogWarning("PlayFootstep called but <b>FootStepsManager</b> is not assigned!");
+                return;
+            }
+
+            bool surfaceFound = false;
+            foreach (var surfaceData in footstepManager.m_FootstepsSurfaces)
+            {
+                if (surfaceData.surfaceType == currentSurface)
+                {
+                    surfaceFound = true;
+                    AudioClip clip = surfaceData.GetRandomClip();
+                    if (clip != null)
+                    {
+                        Debug.Log($"Playing footstep: <b>{clip.name}</b> for surface: <b>{currentSurface}</b>");
+                        audioSource.PlayOneShot(clip);
+                    }
+                    else
+                    {
+                        Debug.LogWarning($"No AudioClips found in FootStepsManager for surface: <b>{currentSurface}</b>");
+                    }
+                    return;
+                }
+            }
+
+            if (!surfaceFound)
+            {
+                Debug.LogWarning($"Surface <b>{currentSurface}</b> was not found in the FootStepsManager list!");
+            }
         }
     }
 }
