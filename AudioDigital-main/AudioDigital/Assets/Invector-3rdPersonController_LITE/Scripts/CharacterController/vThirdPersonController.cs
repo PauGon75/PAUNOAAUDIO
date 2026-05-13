@@ -9,7 +9,8 @@ namespace Invector.vCharacterController
         {
             GRASS,
             SAND,
-            CONCRETE
+            CONCRETE,
+            NULL
         };
 
         [SerializeField] private AudioSource audioSource;
