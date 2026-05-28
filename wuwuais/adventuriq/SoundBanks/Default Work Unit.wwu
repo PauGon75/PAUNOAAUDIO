@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{461394C9-CD42-4D5D-B44E-BAF183C4D797}" SchemaVersion="119">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{461394C9-CD42-4D5D-B44E-BAF183C4D797}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SoundBankDefault" ID="{D40C9335-19F9-4C4E-9196-54DD6E062561}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Village" ID="{178C7209-8E71-440C-AFAA-67F7999204B4}" WorkUnitID="{92783ACA-401D-4F7C-BBEA-C709D67EA487}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

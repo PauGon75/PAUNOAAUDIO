@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{92783ACA-401D-4F7C-BBEA-C709D67EA487}" SchemaVersion="119">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{92783ACA-401D-4F7C-BBEA-C709D67EA487}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Ambient_Region_Village" ID="{178C7209-8E71-440C-AFAA-67F7999204B4}">
+					<ChildrenList>
+						<Action Name="" ID="{E5205891-8022-45E4-A45A-B111E90BED63}" ShortID="798243426">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambient_Region_Village" ID="{F486CD31-369A-4F3B-8119-BA51DDB70DF7}" WorkUnitID="{D45BD273-6856-4811-97BF-DA44E801F4CD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
