@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2541270269	Destruction_VolcanicBoulder_Impact			\Default Work Unit\Destruction_VolcanicBoulder_Impact	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	766803	VolcanicBoulder Break	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\317767__jalastram__sfx_explosion_14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\VolcanicBoulder Break		304208
+

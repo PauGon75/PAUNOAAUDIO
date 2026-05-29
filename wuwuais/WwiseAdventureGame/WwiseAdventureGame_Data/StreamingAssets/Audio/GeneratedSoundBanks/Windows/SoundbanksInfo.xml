@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\</ProjectRoot>
-		<SourceFilesRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="3091222727">
+		<SoundBank Id="133642231" Language="SFX" Hash="936393290">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4254124015" Name="Destruction_Container" ObjectPath="\Events\Default Work Unit\Destruction_Container">
+					<IncludedMemoryFiles>
+						<File Id="269992882" Language="SFX">
+							<ShortName>624150__markdalderup__snapped-wood.wav</ShortName>
+							<Path>SFX\624150__markdalderup__snapped-wood_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
 				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\Default Work Unit\UI_Button_Down">
 					<IncludedMemoryFiles>
 						<File Id="145288787" Language="SFX">
@@ -29,6 +38,14 @@
 						<File Id="67530667" Language="SFX">
 							<ShortName>JDSherbert - Ultimate UI SFX Pack - Cancel - 1.wav</ShortName>
 							<Path>SFX\JDSherbert - Ultimate UI SFX Pack - Cancel - 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit" ObjectPath="\Events\Default Work Unit\UI_Button_Exit">
+					<IncludedMemoryFiles>
+						<File Id="165743801" Language="SFX">
+							<ShortName>327381__thisisminime__car-horn.wav</ShortName>
+							<Path>SFX\327381__thisisminime__car-horn_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -119,10 +136,55 @@
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
 		</SoundBank>
+		<SoundBank Id="608898761" Language="SFX" Hash="1605325989">
+			<ObjectPath>\SoundBanks\Default Work Unit\Dungeon</ObjectPath>
+			<ShortName>Dungeon</ShortName>
+			<Path>Dungeon.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Default Work Unit\Destruction_Rock_Destroy">
+					<IncludedMemoryFiles>
+						<File Id="412601567" Language="SFX">
+							<ShortName>437602__debsound__brick-debris-fall-06.wav</ShortName>
+							<Path>SFX\437602__debsound__brick-debris-fall-06_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="3731913383">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1850388778" Language="SFX" Hash="4249744091">
+			<ObjectPath>\SoundBanks\Default Work Unit\Desert</ObjectPath>
+			<ShortName>Desert</ShortName>
+			<Path>Desert.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact" ObjectPath="\Events\Default Work Unit\Destruction_VolcanicBoulder_Impact">
+					<IncludedMemoryFiles>
+						<File Id="766803" Language="SFX">
+							<ShortName>317767__jalastram__sfx_explosion_14.wav</ShortName>
+							<Path>SFX\317767__jalastram__sfx_explosion_14_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="4122393694" Language="SFX" Hash="4239145487">
+			<ObjectPath>\SoundBanks\Default Work Unit\Cave</ObjectPath>
+			<ShortName>Cave</ShortName>
+			<Path>Cave.bnk</Path>
+			<IncludedEvents>
+				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Default Work Unit\Destruction_Crystal_Destroy">
+					<IncludedMemoryFiles>
+						<File Id="802853182" Language="SFX">
+							<ShortName>349240__natty23__glass-break-2.wav</ShortName>
+							<Path>SFX\349240__natty23__glass-break-2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

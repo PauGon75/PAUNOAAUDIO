@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1999886838	Destruction_Rock_Destroy			\Default Work Unit\Destruction_Rock_Destroy	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	412601567	rock break	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\437602__debsound__brick-debris-fall-06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\rock break		221652
+

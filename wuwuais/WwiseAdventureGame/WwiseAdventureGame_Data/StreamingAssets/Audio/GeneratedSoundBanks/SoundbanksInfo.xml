@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\</ProjectRoot>
-		<SourceFilesRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="3878142985">
+		<SoundBank Id="133642231" Language="SFX" Hash="1217230375">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<IncludedEvents>
+				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
 				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\Default Work Unit\UI_Button_Down">
 					<IncludedMemoryFiles>
 						<File Id="145288787" Language="SFX">
@@ -29,6 +30,14 @@
 						<File Id="67530667" Language="SFX">
 							<ShortName>JDSherbert - Ultimate UI SFX Pack - Cancel - 1.wav</ShortName>
 							<Path>SFX\JDSherbert - Ultimate UI SFX Pack - Cancel - 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2325560497" Name="UI_Button_Exit" ObjectPath="\Events\Default Work Unit\UI_Button_Exit">
+					<IncludedMemoryFiles>
+						<File Id="165743801" Language="SFX">
+							<ShortName>327381__thisisminime__car-horn.wav</ShortName>
+							<Path>SFX\327381__thisisminime__car-horn_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -123,6 +132,21 @@
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="4122393694" Language="SFX" Hash="2938086622">
+			<ObjectPath>\SoundBanks\Default Work Unit\Cave</ObjectPath>
+			<ShortName>Cave</ShortName>
+			<Path>Cave.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1331382810" Name="Ambient_Region_Cave" ObjectPath="\Events\Default Work Unit\Ambient_Region_Cave">
+					<IncludedMemoryFiles>
+						<File Id="581723685" Language="SFX">
+							<ShortName>608359__gavpro__small-stream-sound-track.wav</ShortName>
+							<Path>SFX\608359__gavpro__small-stream-sound-track_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

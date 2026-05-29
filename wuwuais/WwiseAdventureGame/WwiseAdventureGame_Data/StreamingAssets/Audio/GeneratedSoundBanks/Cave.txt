@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1331382810	Ambient_Region_Cave			\Default Work Unit\Ambient_Region_Cave	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	581723685	608359__gavpro__small-stream-sound-track	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\608359__gavpro__small-stream-sound-track_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\608359__gavpro__small-stream-sound-track		57914944
+

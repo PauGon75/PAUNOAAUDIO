@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	448719855	Destruction_Crystal_Destroy			\Default Work Unit\Destruction_Crystal_Destroy	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	802853182	crystal break	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\349240__natty23__glass-break-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\crystal break		195444
+

@@ -135,6 +135,38 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Ambient_Region_Cave" ID="{8954B1A1-E6F9-482A-9A22-861738BF568F}">
+					<ChildrenList>
+						<Action Name="" ID="{4D5A50C8-AE2B-4775-B5AD-6C9208FB6ED8}" ShortID="941075895">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="608359__gavpro__small-stream-sound-track" ID="{7335BF69-D8BA-465B-874B-BFCD0E861C38}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_All" ID="{3C2678E8-5DE7-4E28-96DC-9BA0FFEBE18B}">
+					<ChildrenList>
+						<Action Name="" ID="{1D953903-A8A5-4CE3-BBBB-2E303FE7A7C0}" ShortID="697357271">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Button_Exit" ID="{BA8E2AF4-4212-4323-81EA-086C850BA22E}">
+					<ChildrenList>
+						<Action Name="" ID="{FDAB8E6D-534C-45B3-A3C1-8A222A7F02DA}" ShortID="950723343">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="327381__thisisminime__car-horn" ID="{722A6156-2CF0-4AAF-AAD1-E9C6B869B895}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
