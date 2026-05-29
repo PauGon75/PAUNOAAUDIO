@@ -135,17 +135,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Ambient_Region_Cave" ID="{8954B1A1-E6F9-482A-9A22-861738BF568F}">
-					<ChildrenList>
-						<Action Name="" ID="{4D5A50C8-AE2B-4775-B5AD-6C9208FB6ED8}" ShortID="941075895">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="608359__gavpro__small-stream-sound-track" ID="{7335BF69-D8BA-465B-874B-BFCD0E861C38}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Stop_All" ID="{3C2678E8-5DE7-4E28-96DC-9BA0FFEBE18B}">
 					<ChildrenList>
 						<Action Name="" ID="{1D953903-A8A5-4CE3-BBBB-2E303FE7A7C0}" ShortID="697357271">
@@ -162,6 +151,50 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="327381__thisisminime__car-horn" ID="{722A6156-2CF0-4AAF-AAD1-E9C6B869B895}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Destruction_Container" ID="{DFEB00BC-0DEE-4045-99B9-40C146219129}">
+					<ChildrenList>
+						<Action Name="" ID="{902A0D46-BDDB-4F19-8C3B-D3F331A59FC3}" ShortID="19024650">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="wood break" ID="{1E6F7FD3-DF5D-4772-92A6-20007DE78F98}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Destruction_Crystal_Destroy" ID="{F6F30D50-B42F-4FDB-9138-7A99D07ABABD}">
+					<ChildrenList>
+						<Action Name="" ID="{F05BF1B4-1FEE-4F19-B7B9-EEBC64921DF5}" ShortID="333272304">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="crystal break" ID="{DFB08287-AEA1-4B4A-B8D7-C18EFF5000C1}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Destruction_Rock_Destroy" ID="{BB563CB7-841A-480C-9022-6ADE7581BBE8}">
+					<ChildrenList>
+						<Action Name="" ID="{610BEF9C-24DF-4D3E-B53D-5E77231BA876}" ShortID="513966714">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="rock break" ID="{2E87C82B-C1D3-475D-90FC-E77ED3F30714}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Destruction_VolcanicBoulder_Impact" ID="{BED0AFFF-7EC7-4BB7-99CD-38376C3F264D}">
+					<ChildrenList>
+						<Action Name="" ID="{556C6EEE-1789-443C-A557-EE3C1B7C2D19}" ShortID="288669824">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="VolcanicBoulder Break" ID="{CADDFE2C-8E05-45F7-8B56-2DB76442AFA2}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

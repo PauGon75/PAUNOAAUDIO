@@ -367,19 +367,8 @@
 				</Folder>
 				<Folder Name="Destruction" ID="{D7DAFB36-339B-42A9-B76B-FEBAD91AFEB7}" ShortID="277166410">
 					<ChildrenList>
-						<Sound Name="608359__gavpro__small-stream-sound-track" ID="{7335BF69-D8BA-465B-874B-BFCD0E861C38}" ShortID="4654869">
-							<PropertyList>
-								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>10</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="rock break" ID="{2E87C82B-C1D3-475D-90FC-E77ED3F30714}" ShortID="778673575">
 							<ReferenceList>
-								<Reference Name="Attenuation">
-									<ObjectRef Name="New Attenuation" ID="{5F9EE847-FB12-4A84-96A1-A4C0E3938F32}" WorkUnitID="{C2EA701A-C4D8-434F-AEC1-DB47CF1D7A08}"/>
-								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
 								</Reference>
@@ -388,17 +377,86 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="608359__gavpro__small-stream-sound-track" ID="{D09655B3-F4CF-430D-8DF9-E0F52DC37E9F}">
+								<AudioFileSource Name="437602__debsound__brick-debris-fall-06" ID="{AD1ED72D-D635-4BC7-A646-8C79C72CF8D4}">
 									<Language>SFX</Language>
-									<AudioFile>608359__gavpro__small-stream-sound-track.wav</AudioFile>
+									<AudioFile>437602__debsound__brick-debris-fall-06.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="581723685"/>
+										<MediaID ID="412601567"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="608359__gavpro__small-stream-sound-track" ID="{D09655B3-F4CF-430D-8DF9-E0F52DC37E9F}" Platform="Linked"/>
+								<ActiveSource Name="437602__debsound__brick-debris-fall-06" ID="{AD1ED72D-D635-4BC7-A646-8C79C72CF8D4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="crystal break" ID="{DFB08287-AEA1-4B4A-B8D7-C18EFF5000C1}" ShortID="830070902">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX Bus" ID="{E91D2535-FF36-4A05-85F6-35C484991BEA}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="349240__natty23__glass-break-2" ID="{C1CB592C-83C3-461B-A1FB-B5B1204B6699}">
+									<Language>SFX</Language>
+									<AudioFile>349240__natty23__glass-break-2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="802853182"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="349240__natty23__glass-break-2" ID="{C1CB592C-83C3-461B-A1FB-B5B1204B6699}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="wood break" ID="{1E6F7FD3-DF5D-4772-92A6-20007DE78F98}" ShortID="307956440">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX Bus" ID="{E91D2535-FF36-4A05-85F6-35C484991BEA}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="624150__markdalderup__snapped-wood" ID="{FB47AF24-1116-4EF0-B13F-0B91BB1EEF77}">
+									<Language>SFX</Language>
+									<AudioFile>624150__markdalderup__snapped-wood.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="269992882"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="624150__markdalderup__snapped-wood" ID="{FB47AF24-1116-4EF0-B13F-0B91BB1EEF77}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="VolcanicBoulder Break" ID="{CADDFE2C-8E05-45F7-8B56-2DB76442AFA2}" ShortID="979370125">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX Bus" ID="{E91D2535-FF36-4A05-85F6-35C484991BEA}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="317767__jalastram__sfx_explosion_14" ID="{D5387D93-4FEA-44AE-B968-7DE99C392502}">
+									<Language>SFX</Language>
+									<AudioFile>317767__jalastram__sfx_explosion_14.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="766803"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="317767__jalastram__sfx_explosion_14" ID="{D5387D93-4FEA-44AE-B968-7DE99C392502}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
