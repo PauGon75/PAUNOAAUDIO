@@ -14,6 +14,330 @@
 									<ObjectRef Name="SFX Bus" ID="{E91D2535-FF36-4A05-85F6-35C484991BEA}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="JDSherbert - Ultimate UI SFX Pack - Cancel - 1" ID="{D0E44A0E-803F-4EA6-B465-F3277C1DDA90}" ShortID="313118780">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JDSherbert - Ultimate UI SFX Pack - Cancel - 1" ID="{6FB54AE6-66C6-4D0E-A5CE-A213D49FE852}">
+											<Language>SFX</Language>
+											<AudioFile>JDSherbert - Ultimate UI SFX Pack - Cancel - 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="67530667"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="JDSherbert - Ultimate UI SFX Pack - Cancel - 1" ID="{6FB54AE6-66C6-4D0E-A5CE-A213D49FE852}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="JDSherbert - Ultimate UI SFX Pack - Cancel - 2" ID="{0327E515-B97C-479B-89F7-3031855BF541}" ShortID="138565058">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JDSherbert - Ultimate UI SFX Pack - Cancel - 2" ID="{F8A311E9-AEBC-4CE0-9795-C2ACC76F98A5}">
+											<Language>SFX</Language>
+											<AudioFile>JDSherbert - Ultimate UI SFX Pack - Cancel - 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="952963873"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="JDSherbert - Ultimate UI SFX Pack - Cancel - 2" ID="{F8A311E9-AEBC-4CE0-9795-C2ACC76F98A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 1" ID="{44434E82-DEA0-402F-9AB5-8D5B476EE9E5}" ShortID="218135159">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 1" ID="{A0936E94-3CFC-45C2-93BA-B47C72C082DC}">
+											<Language>SFX</Language>
+											<AudioFile>JDSherbert - Ultimate UI SFX Pack - Cursor - 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="61894463"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 1" ID="{A0936E94-3CFC-45C2-93BA-B47C72C082DC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 2" ID="{1379B8A4-EDFA-46D7-99E7-D70408C18C30}" ShortID="40708155">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 2" ID="{A03F5537-59F6-4121-82CC-4783A5155BEA}">
+											<Language>SFX</Language>
+											<AudioFile>JDSherbert - Ultimate UI SFX Pack - Cursor - 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="153913638"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 2" ID="{A03F5537-59F6-4121-82CC-4783A5155BEA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 3" ID="{2756A76A-1BE4-4BA7-B2BD-D4081DF316D6}" ShortID="303624808">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 3" ID="{26CF9408-6616-419B-9ED6-C8939E665AE1}">
+											<Language>SFX</Language>
+											<AudioFile>JDSherbert - Ultimate UI SFX Pack - Cursor - 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="712570326"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 3" ID="{26CF9408-6616-419B-9ED6-C8939E665AE1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 4" ID="{88A36901-99BD-457D-8467-DCEF3063FB6D}" ShortID="1051372802">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 4" ID="{C7265922-8AE6-4AAF-985B-7B21084789C0}">
+											<Language>SFX</Language>
+											<AudioFile>JDSherbert - Ultimate UI SFX Pack - Cursor - 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="710448916"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 4" ID="{C7265922-8AE6-4AAF-985B-7B21084789C0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 5" ID="{82EFC0B9-043F-485D-B9CC-A35F6D79EE91}" ShortID="430244910">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 5" ID="{9BB05776-B04D-47EA-85BE-BD9108A580B9}">
+											<Language>SFX</Language>
+											<AudioFile>JDSherbert - Ultimate UI SFX Pack - Cursor - 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="729782486"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="JDSherbert - Ultimate UI SFX Pack - Cursor - 5" ID="{9BB05776-B04D-47EA-85BE-BD9108A580B9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="JDSherbert - Ultimate UI SFX Pack - Error - 1" ID="{AD346731-FE26-4AF7-AE0D-ABDA8E80DB91}" ShortID="744196752">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JDSherbert - Ultimate UI SFX Pack - Error - 1" ID="{56259792-C76C-478E-AEE0-BB0F8DD6AAA4}">
+											<Language>SFX</Language>
+											<AudioFile>JDSherbert - Ultimate UI SFX Pack - Error - 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="800339567"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="JDSherbert - Ultimate UI SFX Pack - Error - 1" ID="{56259792-C76C-478E-AEE0-BB0F8DD6AAA4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="JDSherbert - Ultimate UI SFX Pack - Popup Close - 1" ID="{36CA0900-5BC6-455C-B941-CFCD4DB3BFC0}" ShortID="1005449011">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JDSherbert - Ultimate UI SFX Pack - Popup Close - 1" ID="{66B678C2-4BD0-453E-82BF-8469DCEB482A}">
+											<Language>SFX</Language>
+											<AudioFile>JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="130874871"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="JDSherbert - Ultimate UI SFX Pack - Popup Close - 1" ID="{66B678C2-4BD0-453E-82BF-8469DCEB482A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="JDSherbert - Ultimate UI SFX Pack - Popup Open - 1" ID="{E2B8C8C1-3950-42CA-B30A-CABFBE5B2A9C}" ShortID="578883829">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JDSherbert - Ultimate UI SFX Pack - Popup Open - 1" ID="{E062B877-05F8-48C2-9F11-2C2E7D8EA558}">
+											<Language>SFX</Language>
+											<AudioFile>JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="607301071"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="JDSherbert - Ultimate UI SFX Pack - Popup Open - 1" ID="{E062B877-05F8-48C2-9F11-2C2E7D8EA558}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="JDSherbert - Ultimate UI SFX Pack - Select - 1" ID="{24EEC741-6215-4D40-9C90-452BA5ADB36B}" ShortID="390613367">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JDSherbert - Ultimate UI SFX Pack - Select - 1" ID="{E077F1A7-6E30-45FD-89D8-B91708DAACE7}">
+											<Language>SFX</Language>
+											<AudioFile>JDSherbert - Ultimate UI SFX Pack - Select - 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="417922200"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="JDSherbert - Ultimate UI SFX Pack - Select - 1" ID="{E077F1A7-6E30-45FD-89D8-B91708DAACE7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="JDSherbert - Ultimate UI SFX Pack - Select - 2" ID="{32DF5E4B-B805-4CFB-BD76-6E97755A25D7}" ShortID="180087598">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JDSherbert - Ultimate UI SFX Pack - Select - 2" ID="{FE15B820-B7A4-47C2-8F4F-B41610FE54D9}">
+											<Language>SFX</Language>
+											<AudioFile>JDSherbert - Ultimate UI SFX Pack - Select - 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="145288787"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="JDSherbert - Ultimate UI SFX Pack - Select - 2" ID="{FE15B820-B7A4-47C2-8F4F-B41610FE54D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="JDSherbert - Ultimate UI SFX Pack - Swipe - 1" ID="{73F2919E-9CCC-44A8-B4A5-A6FCC6C59F94}" ShortID="59329052">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JDSherbert - Ultimate UI SFX Pack - Swipe - 1" ID="{22C03E63-07BF-451C-81A2-ACED2E6CF355}">
+											<Language>SFX</Language>
+											<AudioFile>JDSherbert - Ultimate UI SFX Pack - Swipe - 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="762191199"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="JDSherbert - Ultimate UI SFX Pack - Swipe - 1" ID="{22C03E63-07BF-451C-81A2-ACED2E6CF355}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="JDSherbert - Ultimate UI SFX Pack - Swipe - 2" ID="{7408B10D-3606-495A-AAAD-4852B41B7EFF}" ShortID="391281337">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JDSherbert - Ultimate UI SFX Pack - Swipe - 2" ID="{89FD3B89-DCB5-42B8-8535-44B8D25F05B2}">
+											<Language>SFX</Language>
+											<AudioFile>JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="70562922"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="JDSherbert - Ultimate UI SFX Pack - Swipe - 2" ID="{89FD3B89-DCB5-42B8-8535-44B8D25F05B2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
 							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>

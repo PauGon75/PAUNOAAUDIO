@@ -1,6 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="UI_Button_Down" ID="{4B08934E-4DDA-4B8C-B835-15DABF994B63}">
+					<ChildrenList>
+						<Action Name="" ID="{9B881553-CA8B-410D-A8BB-91035B0E1DD9}" ShortID="1043596740">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JDSherbert - Ultimate UI SFX Pack - Select - 2" ID="{32DF5E4B-B805-4CFB-BD76-6E97755A25D7}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Button_Up" ID="{44CAEA64-CE91-461A-A071-B990D1D5C9FC}">
+					<ChildrenList>
+						<Action Name="" ID="{F00D2B2B-E8F5-46AC-9D2E-B96AA6CCB258}" ShortID="826976802">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JDSherbert - Ultimate UI SFX Pack - Select - 1" ID="{24EEC741-6215-4D40-9C90-452BA5ADB36B}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Menu_Pause" ID="{1C247097-3E98-41D7-BA8A-A4D5785376E3}">
+					<ChildrenList>
+						<Action Name="" ID="{4E80028B-48D0-4C1C-91B9-10896F1635B5}" ShortID="784514046">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JDSherbert - Ultimate UI SFX Pack - Swipe - 1" ID="{73F2919E-9CCC-44A8-B4A5-A6FCC6C59F94}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Menu_Resume" ID="{7A389ED8-6A63-4FCF-B71F-22FBB2E83EA5}">
+					<ChildrenList>
+						<Action Name="" ID="{6687E5A9-F90F-49C3-B9A9-C77880E53ADE}" ShortID="829158368">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JDSherbert - Ultimate UI SFX Pack - Popup Close - 1" ID="{36CA0900-5BC6-455C-B941-CFCD4DB3BFC0}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Inventory_Open" ID="{0AFA167A-C21C-48FC-88DB-94F91525B649}">
+					<ChildrenList>
+						<Action Name="" ID="{3AA7BA60-998A-4F38-9DE5-BABC29EEFB68}" ShortID="705054617">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JDSherbert - Ultimate UI SFX Pack - Popup Open - 1" ID="{E2B8C8C1-3950-42CA-B30A-CABFBE5B2A9C}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Inventory_Close" ID="{CA81C36A-A306-41CC-B49C-C44979414DB4}">
+					<ChildrenList>
+						<Action Name="" ID="{2E660AF5-35AA-4C56-B5DB-E6EEC9787C7B}" ShortID="613460483">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JDSherbert - Ultimate UI SFX Pack - Popup Close - 1" ID="{36CA0900-5BC6-455C-B941-CFCD4DB3BFC0}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Inventory_Roll" ID="{1664421A-2CD8-4222-B176-86D072B9B518}">
+					<ChildrenList>
+						<Action Name="" ID="{842A66DB-7717-4A69-809A-EEF669C64D25}" ShortID="218684206">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JDSherbert - Ultimate UI SFX Pack - Select - 1" ID="{24EEC741-6215-4D40-9C90-452BA5ADB36B}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_QuestRoll_Show" ID="{3FA763F3-3129-4C75-8E66-C79D50521D94}">
+					<ChildrenList>
+						<Action Name="" ID="{ED7BE9DE-4C71-47DD-B32A-35527494782F}" ShortID="178189762">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JDSherbert - Ultimate UI SFX Pack - Swipe - 2" ID="{7408B10D-3606-495A-AAAD-4852B41B7EFF}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_QuestRoll_Close" ID="{A83C37DF-49D1-4BE0-BB8F-E7ECC48A7DBD}">
+					<ChildrenList>
+						<Action Name="" ID="{20136E58-1B3D-4458-A347-ACBC16F4C479}" ShortID="456609635">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JDSherbert - Ultimate UI SFX Pack - Popup Close - 1" ID="{36CA0900-5BC6-455C-B941-CFCD4DB3BFC0}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_QuestRoll_Hide" ID="{08530FC0-35D1-4BAB-A771-B1779E583BAD}">
+					<ChildrenList>
+						<Action Name="" ID="{A9645595-ECFA-48A5-9B2E-649BE802E0F5}" ShortID="560834706">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JDSherbert - Ultimate UI SFX Pack - Popup Close - 1" ID="{36CA0900-5BC6-455C-B941-CFCD4DB3BFC0}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_QuestRoll_Open" ID="{CADDF53A-FCF1-46FC-90C8-33857CBF93E1}">
+					<ChildrenList>
+						<Action Name="" ID="{03CEDACA-3914-4297-8786-9DE138FE3A35}" ShortID="1008247615">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JDSherbert - Ultimate UI SFX Pack - Popup Open - 1" ID="{E2B8C8C1-3950-42CA-B30A-CABFBE5B2A9C}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

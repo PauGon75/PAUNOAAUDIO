@@ -3,6 +3,18 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{3AF41F63-FDB1-4E7A-9A4D-7C399DCA7771}">
 			<PropertyList>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\UIAudios\"/>
+				<Property Name="Event Action List\{08530FC0-35D1-4BAB-A771-B1779E583BAD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{0AFA167A-C21C-48FC-88DB-94F91525B649}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1664421A-2CD8-4222-B176-86D072B9B518}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1C247097-3E98-41D7-BA8A-A4D5785376E3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{3FA763F3-3129-4C75-8E66-C79D50521D94}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{44CAEA64-CE91-461A-A071-B990D1D5C9FC}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{4B08934E-4DDA-4B8C-B835-15DABF994B63}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7A389ED8-6A63-4FCF-B71F-22FBB2E83EA5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A83C37DF-49D1-4BE0-BB8F-E7ECC48A7DBD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{CA81C36A-A306-41CC-B49C-C44979414DB4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{CADDF53A-FCF1-46FC-90C8-33857CBF93E1}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>

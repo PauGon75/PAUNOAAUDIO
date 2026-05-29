@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\</ProjectRoot>
+		<SourceFilesRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="133642231" Language="SFX" Hash="3084597342">
+			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
+			<ShortName>General</ShortName>
+			<Path>General.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2278290679" Name="UI_Inventory_Close" ObjectPath="\Events\Default Work Unit\UI_Inventory_Close">
+					<IncludedMemoryFiles>
+						<File Id="130874871" Language="SFX">
+							<ShortName>JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.wav</ShortName>
+							<Path>SFX\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2199611969" Name="UI_Inventory_Open" ObjectPath="\Events\Default Work Unit\UI_Inventory_Open">
+					<IncludedMemoryFiles>
+						<File Id="607301071" Language="SFX">
+							<ShortName>JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.wav</ShortName>
+							<Path>SFX\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3749307760" Name="UI_Inventory_Roll" ObjectPath="\Events\Default Work Unit\UI_Inventory_Roll">
+					<IncludedMemoryFiles>
+						<File Id="417922200" Language="SFX">
+							<ShortName>JDSherbert - Ultimate UI SFX Pack - Select - 1.wav</ShortName>
+							<Path>SFX\JDSherbert - Ultimate UI SFX Pack - Select - 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="808893336" Name="UI_QuestRoll_Close" ObjectPath="\Events\Default Work Unit\UI_QuestRoll_Close">
+					<IncludedMemoryFiles>
+						<File Id="130874871" Language="SFX">
+							<ShortName>JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.wav</ShortName>
+							<Path>SFX\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2792117052" Name="UI_QuestRoll_Hide" ObjectPath="\Events\Default Work Unit\UI_QuestRoll_Hide">
+					<IncludedMemoryFiles>
+						<File Id="130874871" Language="SFX">
+							<ShortName>JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.wav</ShortName>
+							<Path>SFX\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="949395292" Name="UI_QuestRoll_Open" ObjectPath="\Events\Default Work Unit\UI_QuestRoll_Open">
+					<IncludedMemoryFiles>
+						<File Id="607301071" Language="SFX">
+							<ShortName>JDSherbert - Ultimate UI SFX Pack - Popup Open - 1.wav</ShortName>
+							<Path>SFX\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3699139167" Name="UI_QuestRoll_Show" ObjectPath="\Events\Default Work Unit\UI_QuestRoll_Show">
+					<IncludedMemoryFiles>
+						<File Id="70562922" Language="SFX">
+							<ShortName>JDSherbert - Ultimate UI SFX Pack - Swipe - 2.wav</ShortName>
+							<Path>SFX\JDSherbert - Ultimate UI SFX Pack - Swipe - 2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="152105657" Language="SFX" Hash="2767157393">
+			<ObjectPath>\SoundBanks\Default Work Unit\TitleScreen</ObjectPath>
+			<ShortName>TitleScreen</ShortName>
+			<Path>TitleScreen.bnk</Path>
+			<IncludedEvents>
+				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\Default Work Unit\UI_Button_Down">
+					<IncludedMemoryFiles>
+						<File Id="145288787" Language="SFX">
+							<ShortName>JDSherbert - Ultimate UI SFX Pack - Select - 2.wav</ShortName>
+							<Path>SFX\JDSherbert - Ultimate UI SFX Pack - Select - 2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="15662850" Name="UI_Button_Up" ObjectPath="\Events\Default Work Unit\UI_Button_Up">
+					<IncludedMemoryFiles>
+						<File Id="417922200" Language="SFX">
+							<ShortName>JDSherbert - Ultimate UI SFX Pack - Select - 1.wav</ShortName>
+							<Path>SFX\JDSherbert - Ultimate UI SFX Pack - Select - 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3237189652" Name="UI_Menu_Pause" ObjectPath="\Events\Default Work Unit\UI_Menu_Pause">
+					<IncludedMemoryFiles>
+						<File Id="762191199" Language="SFX">
+							<ShortName>JDSherbert - Ultimate UI SFX Pack - Swipe - 1.wav</ShortName>
+							<Path>SFX\JDSherbert - Ultimate UI SFX Pack - Swipe - 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1464993479" Name="UI_Menu_Resume" ObjectPath="\Events\Default Work Unit\UI_Menu_Resume">
+					<IncludedMemoryFiles>
+						<File Id="130874871" Language="SFX">
+							<ShortName>JDSherbert - Ultimate UI SFX Pack - Popup Close - 1.wav</ShortName>
+							<Path>SFX\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3731913383">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,12 @@
+Event	ID	Name			Wwise Object Path	Notes
+	15662850	UI_Button_Up			\Default Work Unit\UI_Button_Up	
+	156563189	UI_Button_Down			\Default Work Unit\UI_Button_Down	
+	1464993479	UI_Menu_Resume			\Default Work Unit\UI_Menu_Resume	
+	3237189652	UI_Menu_Pause			\Default Work Unit\UI_Menu_Pause	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	130874871	JDSherbert - Ultimate UI SFX Pack - Popup Close - 1	C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1		192708
+	145288787	JDSherbert - Ultimate UI SFX Pack - Select - 2	C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Select - 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Select - 2		192788
+	417922200	JDSherbert - Ultimate UI SFX Pack - Select - 1	C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Select - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Select - 1		192708
+	762191199	JDSherbert - Ultimate UI SFX Pack - Swipe - 1	C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Swipe - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Swipe - 1		74740
+
