@@ -249,7 +249,7 @@
 						<Action Name="" ID="{4FE937EF-DDBC-4103-9974-686B861DA0C0}" ShortID="600036081">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="woodlands" ID="{31EA3770-E32B-4D18-BF6F-E098574878D5}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+									<ObjectRef Name="woodlands ambience" ID="{31EA3770-E32B-4D18-BF6F-E098574878D5}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -261,6 +261,147 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="dungeon ambience" ID="{231A200A-70C2-4E73-A81E-D47A5ED49337}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Crystal_Hum" ID="{5719B8F7-5608-4617-819C-BE2533345FDC}">
+					<ChildrenList>
+						<Action Name="" ID="{E7314961-A10A-4DBB-AC14-23139BE4DBF5}" ShortID="160847744">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3d emmiter crystal" ID="{87B0D430-7A1E-4E89-B781-51FEBB4DDFBC}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Lava" ID="{5CDA0C93-1EB3-4238-BFF4-E2A8D3443E56}">
+					<ChildrenList>
+						<Action Name="" ID="{5F0A9B99-21D5-4D5F-AAAE-23ED2ED91644}" ShortID="934304175">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3d emitter lava" ID="{632ECD0C-7511-4C4D-9B2D-D0FB2780FDCF}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_River" ID="{6AB8C52F-AB54-4368-9443-910CD86CA847}">
+					<ChildrenList>
+						<Action Name="" ID="{E3A1AF93-0ED7-43EF-8E63-7E960F1CF513}" ShortID="1043879887">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3d emitter river" ID="{63BAB888-DC50-4BD5-8D4F-36DF13AD99F7}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Torch" ID="{A4DF95F9-4873-4E7F-B522-4A4F0641C5F8}">
+					<ChildrenList>
+						<Action Name="" ID="{90A6E53B-B189-47AA-8B36-BD7C08F0C8E0}" ShortID="366873933">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3d emitter torch" ID="{E8C2198F-F145-46E6-BE30-68811C719C6E}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Waterfall" ID="{CDE567FA-5F39-412D-9291-6E9A01ED85BE}">
+					<ChildrenList>
+						<Action Name="" ID="{FAEC78A5-2E4D-4D23-9CEF-E10942C7DB59}" ShortID="431815072">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3d emitter waterfall" ID="{321AF410-89B7-41F4-8C44-C5022B054E81}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Windmill" ID="{82793D3D-6F67-4D81-8AAC-FE254AFF0680}">
+					<ChildrenList>
+						<Action Name="" ID="{636D2DF1-7083-4378-A81E-0BCE92C0255A}" ShortID="669700502">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3d emitter windmill" ID="{D40161C2-53D7-46AB-87AB-B6F5B6735429}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Campfire_Play" ID="{86973E2B-8A41-441C-B072-BDA78D267B35}">
+					<ChildrenList>
+						<Action Name="" ID="{C6CD3965-A9DB-461B-BB91-84D7FEA185C5}" ShortID="704357214">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3d emitter torch" ID="{E8C2198F-F145-46E6-BE30-68811C719C6E}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Ambient_Campfire_Stop" ID="{ED3943FA-2611-4D4E-BAAD-F17B88D0C563}">
+					<ChildrenList>
+						<Action Name="" ID="{F33CE8FE-2A6D-4A80-B14A-CCAF2EBE5FFD}" ShortID="563761211">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3d emitter torch" ID="{E8C2198F-F145-46E6-BE30-68811C719C6E}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_DLCdoor_Open_Play" ID="{0564AAE1-D971-4A51-ADF5-D89790F963E7}">
+					<ChildrenList>
+						<Action Name="" ID="{9C929C25-04C1-4561-9EEA-644B7CBA8D6F}" ShortID="515084631">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3d emitter door" ID="{12633A43-4BF0-4E5C-8FD4-C3D0F2622127}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Door_DLCdoor_Open_Stop" ID="{6921FA83-0D1F-4D4E-AD27-AC6E1723BF18}">
+					<ChildrenList>
+						<Action Name="" ID="{526E3004-F0AA-45EC-8170-34BC4A9B3961}" ShortID="269151146">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3d emitter door" ID="{12633A43-4BF0-4E5C-8FD4-C3D0F2622127}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_ArcadeMachine_Play" ID="{6D9F3A18-2BF3-4B21-9E3D-2C424E26C461}">
+					<ChildrenList>
+						<Action Name="" ID="{FB054EC0-179E-4D20-A7CC-0238169BCCDC}" ShortID="847917569">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3d emitter arcade machine" ID="{A802F0D3-76C6-4C9D-88EF-1A56B402E702}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Music_ArcadeMachine_Stop" ID="{4EAC657A-A726-4D72-B7D7-7CB9716B387B}">
+					<ChildrenList>
+						<Action Name="" ID="{41375BAF-A86D-4BA0-B523-8035F989CAB3}" ShortID="393550806">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="3d emitter arcade machine" ID="{A802F0D3-76C6-4C9D-88EF-1A56B402E702}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -726,7 +726,7 @@
 								<ActiveSource Name="tanweraman-desert-wind-2-350417" ID="{CE250A02-7E95-47D5-9EF7-9B7869D3D9C9}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="woodlands" ID="{31EA3770-E32B-4D18-BF6F-E098574878D5}" ShortID="38048940">
+						<Sound Name="woodlands ambience" ID="{31EA3770-E32B-4D18-BF6F-E098574878D5}" ShortID="38048940">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 							</PropertyList>
@@ -802,6 +802,249 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="freesound_community-hammering-in-a-cave-25184" ID="{86D7DE58-D272-4E5C-AEC7-7CC7D9A68451}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3d emmiter crystal" ID="{87B0D430-7A1E-4E89-B781-51FEBB4DDFBC}" ShortID="129784637">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Ambient_10_Units" ID="{7D9DDBE5-5414-4FFB-AD6C-456952CC6F70}" WorkUnitID="{C2EA701A-C4D8-434F-AEC1-DB47CF1D7A08}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="koiroylers-mystical-355968" ID="{462AA9B4-FD00-4DAD-B2F4-99C69488B9F4}">
+									<Language>SFX</Language>
+									<AudioFile>koiroylers-mystical-355968.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="191681102"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="koiroylers-mystical-355968" ID="{462AA9B4-FD00-4DAD-B2F4-99C69488B9F4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3d emitter lava" ID="{632ECD0C-7511-4C4D-9B2D-D0FB2780FDCF}" ShortID="112807727">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Ambient_30_Units" ID="{BE9FEC45-55AF-4CCD-B6D9-E13FC79EAD6D}" WorkUnitID="{C2EA701A-C4D8-434F-AEC1-DB47CF1D7A08}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="freesound_community-lava-loop-1-67307" ID="{9F3F733E-E884-4896-A395-B776CC54E511}">
+									<Language>SFX</Language>
+									<AudioFile>freesound_community-lava-loop-1-67307.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="88927247"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="freesound_community-lava-loop-1-67307" ID="{9F3F733E-E884-4896-A395-B776CC54E511}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3d emitter river" ID="{63BAB888-DC50-4BD5-8D4F-36DF13AD99F7}" ShortID="219538125">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Ambient_30_Units" ID="{BE9FEC45-55AF-4CCD-B6D9-E13FC79EAD6D}" WorkUnitID="{C2EA701A-C4D8-434F-AEC1-DB47CF1D7A08}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="guillermoanaya-water-relaxing-sound-121599" ID="{AA3E1585-3DC8-4627-AA0C-D6E8301EA008}">
+									<Language>SFX</Language>
+									<AudioFile>guillermoanaya-water-relaxing-sound-121599.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="566976459"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="guillermoanaya-water-relaxing-sound-121599" ID="{AA3E1585-3DC8-4627-AA0C-D6E8301EA008}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3d emitter torch" ID="{E8C2198F-F145-46E6-BE30-68811C719C6E}" ShortID="707555031">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Ambient_10_Units" ID="{7D9DDBE5-5414-4FFB-AD6C-456952CC6F70}" WorkUnitID="{C2EA701A-C4D8-434F-AEC1-DB47CF1D7A08}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="soundreality-fire-crackling-sound-499636" ID="{FE19291B-31B0-4096-A970-E45F182A3E46}">
+									<Language>SFX</Language>
+									<AudioFile>soundreality-fire-crackling-sound-499636.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="875941240"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="soundreality-fire-crackling-sound-499636" ID="{FE19291B-31B0-4096-A970-E45F182A3E46}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3d emitter waterfall" ID="{321AF410-89B7-41F4-8C44-C5022B054E81}" ShortID="562057638">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Ambient_30_Units" ID="{BE9FEC45-55AF-4CCD-B6D9-E13FC79EAD6D}" WorkUnitID="{C2EA701A-C4D8-434F-AEC1-DB47CF1D7A08}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="eisenkern1982-waterfall-176958" ID="{8A85F5E6-81DB-4B67-B546-40B54B3DCD6A}">
+									<Language>SFX</Language>
+									<AudioFile>eisenkern1982-waterfall-176958.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="76718324"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="eisenkern1982-waterfall-176958" ID="{8A85F5E6-81DB-4B67-B546-40B54B3DCD6A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3d emitter windmill" ID="{D40161C2-53D7-46AB-87AB-B6F5B6735429}" ShortID="350289098">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Ambient_30_Units" ID="{BE9FEC45-55AF-4CCD-B6D9-E13FC79EAD6D}" WorkUnitID="{C2EA701A-C4D8-434F-AEC1-DB47CF1D7A08}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="freesound_community-windmill-26886" ID="{CC9D1EEE-B0AE-49BD-AB2D-E8562EE22397}">
+									<Language>SFX</Language>
+									<AudioFile>freesound_community-windmill-26886.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="629920348"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="freesound_community-windmill-26886" ID="{CC9D1EEE-B0AE-49BD-AB2D-E8562EE22397}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3d emitter arcade machine" ID="{A802F0D3-76C6-4C9D-88EF-1A56B402E702}" ShortID="43670151">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Ambient_10_Units" ID="{7D9DDBE5-5414-4FFB-AD6C-456952CC6F70}" WorkUnitID="{C2EA701A-C4D8-434F-AEC1-DB47CF1D7A08}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="freesound_community-8-bit-moonlight-sonata-music-loop-20436" ID="{3910717A-EAE1-4955-A7D6-65BCCAD0E954}">
+									<Language>SFX</Language>
+									<AudioFile>freesound_community-8-bit-moonlight-sonata-music-loop-20436.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="442491816"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="freesound_community-8-bit-moonlight-sonata-music-loop-20436" ID="{3910717A-EAE1-4955-A7D6-65BCCAD0E954}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="3d emitter door" ID="{12633A43-4BF0-4E5C-8FD4-C3D0F2622127}" ShortID="283552595">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Ambient_30_Units" ID="{BE9FEC45-55AF-4CCD-B6D9-E13FC79EAD6D}" WorkUnitID="{C2EA701A-C4D8-434F-AEC1-DB47CF1D7A08}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="freesound_community-big-door-creak-103900" ID="{08668A04-302B-435A-BE6A-85B5B80EF999}">
+									<Language>SFX</Language>
+									<AudioFile>freesound_community-big-door-creak-103900.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="769444930"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="freesound_community-big-door-creak-103900" ID="{08668A04-302B-435A-BE6A-85B5B80EF999}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

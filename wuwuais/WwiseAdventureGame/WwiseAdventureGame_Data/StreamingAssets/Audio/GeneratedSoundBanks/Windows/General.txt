@@ -1,32 +1,52 @@
 Event	ID	Name			Wwise Object Path	Notes
 	15662850	UI_Button_Up			\Default Work Unit\UI_Button_Up	
 	18309885	UI_Button_Enter			\Default Work Unit\UI_Button_Enter	
+	100151336	Ambient_Campfire_Stop			\Default Work Unit\Ambient_Campfire_Stop	
+	120976108	Ambient_Torch			\Default Work Unit\Ambient_Torch	
 	156563189	UI_Button_Down			\Default Work Unit\UI_Button_Down	
 	448719855	Destruction_Crystal_Destroy			\Default Work Unit\Destruction_Crystal_Destroy	
 	452547817	Stop_All			\Default Work Unit\Stop_All	
+	746676127	Music_ArcadeMachine_Stop			\Default Work Unit\Music_ArcadeMachine_Stop	
 	808893336	UI_QuestRoll_Close			\Default Work Unit\UI_QuestRoll_Close	
 	949395292	UI_QuestRoll_Open			\Default Work Unit\UI_QuestRoll_Open	
 	1331382810	Ambient_Region_Cave			\Default Work Unit\Ambient_Region_Cave	
 	1464993479	UI_Menu_Resume			\Default Work Unit\UI_Menu_Resume	
+	1934835592	Ambient_Waterfall			\Default Work Unit\Ambient_Waterfall	
 	2199611969	UI_Inventory_Open			\Default Work Unit\UI_Inventory_Open	
+	2208964750	Ambient_Windmill			\Default Work Unit\Ambient_Windmill	
+	2258053876	Ambient_River			\Default Work Unit\Ambient_River	
 	2278290679	UI_Inventory_Close			\Default Work Unit\UI_Inventory_Close	
 	2325560497	UI_Button_Exit			\Default Work Unit\UI_Button_Exit	
+	2355650095	Ambient_Crystal_Hum			\Default Work Unit\Ambient_Crystal_Hum	
+	2379298625	Door_DLCdoor_Open_Stop			\Default Work Unit\Door_DLCdoor_Open_Stop	
+	2409105241	Music_ArcadeMachine_Play			\Default Work Unit\Music_ArcadeMachine_Play	
 	2792117052	UI_QuestRoll_Hide			\Default Work Unit\UI_QuestRoll_Hide	
 	3237189652	UI_Menu_Pause			\Default Work Unit\UI_Menu_Pause	
+	3556635307	Door_DLCdoor_Open_Play			\Default Work Unit\Door_DLCdoor_Open_Play	
+	3664581270	Ambient_Campfire_Play			\Default Work Unit\Ambient_Campfire_Play	
 	3699139167	UI_QuestRoll_Show			\Default Work Unit\UI_QuestRoll_Show	
 	3749307760	UI_Inventory_Roll			\Default Work Unit\UI_Inventory_Roll	
 	4254124015	Destruction_Container			\Default Work Unit\Destruction_Container	
+	4275106484	Ambient_Lava			\Default Work Unit\Ambient_Lava	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	67530667	JDSherbert - Ultimate UI SFX Pack - Cancel - 1	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Cancel - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Cancel - 1		192708
 	70562922	JDSherbert - Ultimate UI SFX Pack - Swipe - 2	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Swipe - 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Swipe - 2		68240
+	76718324	3d emitter waterfall	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\eisenkern1982-waterfall-176958_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emitter waterfall		24063040
+	88927247	3d emitter lava	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\freesound_community-lava-loop-1-67307_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emitter lava		1926208
 	130874871	JDSherbert - Ultimate UI SFX Pack - Popup Close - 1	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1		192708
 	145288787	JDSherbert - Ultimate UI SFX Pack - Select - 2	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Select - 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Select - 2		192788
 	165743801	327381__thisisminime__car-horn	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\327381__thisisminime__car-horn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\327381__thisisminime__car-horn		1056064
+	191681102	3d emmiter crystal	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\koiroylers-mystical-355968_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emmiter crystal		543808
 	269992882	wood break	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\624150__markdalderup__snapped-wood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\wood break		288836
 	417922200	JDSherbert - Ultimate UI SFX Pack - Select - 1	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Select - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Select - 1		192708
+	442491816	3d emitter arcade machine	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\freesound_community-8-bit-moonlight-sonata-music-loop-20436_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emitter arcade machine		7301440
 	481910607	cave ambience3	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\fronbondi_skegs-sfx-horror-ambience-deep-underground-in-cave-sound-effect-368274_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\cave ambience3		11248192
+	566976459	3d emitter river	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\guillermoanaya-water-relaxing-sound-121599_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emitter river		11446336
 	607301071	JDSherbert - Ultimate UI SFX Pack - Popup Open - 1	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1		192708
+	629920348	3d emitter windmill	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\freesound_community-windmill-26886_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emitter windmill		4154176
 	762191199	JDSherbert - Ultimate UI SFX Pack - Swipe - 1	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Swipe - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Swipe - 1		74740
+	769444930	3d emitter door	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\freesound_community-big-door-creak-103900_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emitter door		619840
 	802853182	crystal break	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\349240__natty23__glass-break-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\crystal break		195444
+	875941240	3d emitter torch	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\soundreality-fire-crackling-sound-499636_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emitter torch		15270976
 

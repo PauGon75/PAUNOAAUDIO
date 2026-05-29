@@ -11,16 +11,73 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="4184711549">
+		<SoundBank Id="133642231" Language="SFX" Hash="1808737553">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3664581270" Name="Ambient_Campfire_Play" ObjectPath="\Events\Default Work Unit\Ambient_Campfire_Play">
+					<IncludedMemoryFiles>
+						<File Id="875941240" Language="SFX">
+							<ShortName>soundreality-fire-crackling-sound-499636.wav</ShortName>
+							<Path>SFX\soundreality-fire-crackling-sound-499636_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="100151336" Name="Ambient_Campfire_Stop" ObjectPath="\Events\Default Work Unit\Ambient_Campfire_Stop"/>
+				<Event Id="2355650095" Name="Ambient_Crystal_Hum" ObjectPath="\Events\Default Work Unit\Ambient_Crystal_Hum">
+					<IncludedMemoryFiles>
+						<File Id="191681102" Language="SFX">
+							<ShortName>koiroylers-mystical-355968.wav</ShortName>
+							<Path>SFX\koiroylers-mystical-355968_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4275106484" Name="Ambient_Lava" ObjectPath="\Events\Default Work Unit\Ambient_Lava">
+					<IncludedMemoryFiles>
+						<File Id="88927247" Language="SFX">
+							<ShortName>freesound_community-lava-loop-1-67307.wav</ShortName>
+							<Path>SFX\freesound_community-lava-loop-1-67307_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1331382810" Name="Ambient_Region_Cave" ObjectPath="\Events\Default Work Unit\Ambient_Region_Cave">
 					<IncludedMemoryFiles>
 						<File Id="481910607" Language="SFX">
 							<ShortName>fronbondi_skegs-sfx-horror-ambience-deep-underground-in-cave-sound-effect-368274.wav</ShortName>
 							<Path>SFX\fronbondi_skegs-sfx-horror-ambience-deep-underground-in-cave-sound-effect-368274_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2258053876" Name="Ambient_River" ObjectPath="\Events\Default Work Unit\Ambient_River">
+					<IncludedMemoryFiles>
+						<File Id="566976459" Language="SFX">
+							<ShortName>guillermoanaya-water-relaxing-sound-121599.wav</ShortName>
+							<Path>SFX\guillermoanaya-water-relaxing-sound-121599_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="120976108" Name="Ambient_Torch" ObjectPath="\Events\Default Work Unit\Ambient_Torch">
+					<IncludedMemoryFiles>
+						<File Id="875941240" Language="SFX">
+							<ShortName>soundreality-fire-crackling-sound-499636.wav</ShortName>
+							<Path>SFX\soundreality-fire-crackling-sound-499636_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1934835592" Name="Ambient_Waterfall" ObjectPath="\Events\Default Work Unit\Ambient_Waterfall">
+					<IncludedMemoryFiles>
+						<File Id="76718324" Language="SFX">
+							<ShortName>eisenkern1982-waterfall-176958.wav</ShortName>
+							<Path>SFX\eisenkern1982-waterfall-176958_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2208964750" Name="Ambient_Windmill" ObjectPath="\Events\Default Work Unit\Ambient_Windmill">
+					<IncludedMemoryFiles>
+						<File Id="629920348" Language="SFX">
+							<ShortName>freesound_community-windmill-26886.wav</ShortName>
+							<Path>SFX\freesound_community-windmill-26886_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -40,6 +97,24 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3556635307" Name="Door_DLCdoor_Open_Play" ObjectPath="\Events\Default Work Unit\Door_DLCdoor_Open_Play">
+					<IncludedMemoryFiles>
+						<File Id="769444930" Language="SFX">
+							<ShortName>freesound_community-big-door-creak-103900.wav</ShortName>
+							<Path>SFX\freesound_community-big-door-creak-103900_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2379298625" Name="Door_DLCdoor_Open_Stop" ObjectPath="\Events\Default Work Unit\Door_DLCdoor_Open_Stop"/>
+				<Event Id="2409105241" Name="Music_ArcadeMachine_Play" ObjectPath="\Events\Default Work Unit\Music_ArcadeMachine_Play">
+					<IncludedMemoryFiles>
+						<File Id="442491816" Language="SFX">
+							<ShortName>freesound_community-8-bit-moonlight-sonata-music-loop-20436.wav</ShortName>
+							<Path>SFX\freesound_community-8-bit-moonlight-sonata-music-loop-20436_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="746676127" Name="Music_ArcadeMachine_Stop" ObjectPath="\Events\Default Work Unit\Music_ArcadeMachine_Stop"/>
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
 				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\Default Work Unit\UI_Button_Down">
 					<IncludedMemoryFiles>
