@@ -124,6 +124,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="UI_Button_Enter" ID="{246CDDA3-C1AE-40FB-9219-2A68AA6FB6AC}">
+					<ChildrenList>
+						<Action Name="" ID="{F27DB669-104E-4B72-A844-ABB9D206751D}" ShortID="156766419">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JDSherbert - Ultimate UI SFX Pack - Cancel - 1" ID="{D0E44A0E-803F-4EA6-B465-F3277C1DDA90}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
