@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B05308E7-CBBE-43A1-94FE-E690074E2993}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{B05308E7-CBBE-43A1-94FE-E690074E2993}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="UI" ID="{D5536B24-912E-4E8A-9242-24CA1903095C}" ShortID="620316428">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Rand_UI_Button" ID="{943A0417-9A61-4098-BA00-18E262E8F040}" ShortID="427474865">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX Bus" ID="{E91D2535-FF36-4A05-85F6-35C484991BEA}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
