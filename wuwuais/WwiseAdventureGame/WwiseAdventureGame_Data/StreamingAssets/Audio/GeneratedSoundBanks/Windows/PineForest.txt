@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	808171864	Ambient_Region_PineForest			\Default Work Unit\Ambient_Region_PineForest	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\Default Work Unit\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music_Regions			
+	2482365692	PineForest	Music_Regions			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	207908541	Time_of_Day			\Default Work Unit\Time_of_Day	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	224597432	Pine Forest Night	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\624354__leo_touroult__ambience-equatorial-forest-in-the-night-2-river-in-the-back_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Blend_PineForest\Pine Forest Night		14826720
+	320320221	Pine Forest Day	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\636425__garuda1982__windy-pine-forest-with-birds-atmo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\Blend_PineForest\Pine Forest Day		35097256
+

@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1049266392	Ambient_Region_Woodlands			\Default Work Unit\Ambient_Region_Woodlands	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	109929423	woodlands	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\audiopapkin-forest-ambience-296528 (1)_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\woodlands		37569088
+

@@ -11,16 +11,32 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="936393290">
+		<SoundBank Id="133642231" Language="SFX" Hash="4184711549">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1331382810" Name="Ambient_Region_Cave" ObjectPath="\Events\Default Work Unit\Ambient_Region_Cave">
+					<IncludedMemoryFiles>
+						<File Id="481910607" Language="SFX">
+							<ShortName>fronbondi_skegs-sfx-horror-ambience-deep-underground-in-cave-sound-effect-368274.wav</ShortName>
+							<Path>SFX\fronbondi_skegs-sfx-horror-ambience-deep-underground-in-cave-sound-effect-368274_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="4254124015" Name="Destruction_Container" ObjectPath="\Events\Default Work Unit\Destruction_Container">
 					<IncludedMemoryFiles>
 						<File Id="269992882" Language="SFX">
 							<ShortName>624150__markdalderup__snapped-wood.wav</ShortName>
 							<Path>SFX\624150__markdalderup__snapped-wood_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Default Work Unit\Destruction_Crystal_Destroy">
+					<IncludedMemoryFiles>
+						<File Id="802853182" Language="SFX">
+							<ShortName>349240__natty23__glass-break-2.wav</ShortName>
+							<Path>SFX\349240__natty23__glass-break-2_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -136,11 +152,19 @@
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="608898761" Language="SFX" Hash="1605325989">
+		<SoundBank Id="608898761" Language="SFX" Hash="3404637139">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dungeon</ObjectPath>
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4077685701" Name="Ambient_Region_Dungeon" ObjectPath="\Events\Default Work Unit\Ambient_Region_Dungeon">
+					<IncludedMemoryFiles>
+						<File Id="224209807" Language="SFX">
+							<ShortName>freesound_community-hammering-in-a-cave-25184.wav</ShortName>
+							<Path>SFX\freesound_community-hammering-in-a-cave-25184_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1999886838" Name="Destruction_Rock_Destroy" ObjectPath="\Events\Default Work Unit\Destruction_Rock_Destroy">
 					<IncludedMemoryFiles>
 						<File Id="412601567" Language="SFX">
@@ -151,16 +175,39 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3731913383">
+		<SoundBank Id="1355168291" Language="SFX" Hash="535960225">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1850388778" Language="SFX" Hash="4249744091">
+		<SoundBank Id="1421251628" Language="SFX" Hash="3429400807">
+			<ObjectPath>\SoundBanks\Default Work Unit\Woodlands</ObjectPath>
+			<ShortName>Woodlands</ShortName>
+			<Path>Woodlands.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1049266392" Name="Ambient_Region_Woodlands" ObjectPath="\Events\Default Work Unit\Ambient_Region_Woodlands">
+					<IncludedMemoryFiles>
+						<File Id="109929423" Language="SFX">
+							<ShortName>audiopapkin-forest-ambience-296528 (1).wav</ShortName>
+							<Path>SFX\audiopapkin-forest-ambience-296528 (1)_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1850388778" Language="SFX" Hash="4234024764">
 			<ObjectPath>\SoundBanks\Default Work Unit\Desert</ObjectPath>
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
 			<IncludedEvents>
+				<Event Id="3408705206" Name="Ambient_Region_Desert" ObjectPath="\Events\Default Work Unit\Ambient_Region_Desert">
+					<IncludedMemoryFiles>
+						<File Id="1072985991" Language="SFX">
+							<ShortName>tanweraman-desert-wind-2-350417.wav</ShortName>
+							<Path>SFX\tanweraman-desert-wind-2-350417_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2541270269" Name="Destruction_VolcanicBoulder_Impact" ObjectPath="\Events\Default Work Unit\Destruction_VolcanicBoulder_Impact">
 					<IncludedMemoryFiles>
 						<File Id="766803" Language="SFX">
@@ -171,20 +218,47 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="4122393694" Language="SFX" Hash="4239145487">
-			<ObjectPath>\SoundBanks\Default Work Unit\Cave</ObjectPath>
-			<ShortName>Cave</ShortName>
-			<Path>Cave.bnk</Path>
+		<SoundBank Id="2482365692" Language="SFX" Hash="3895088621">
+			<ObjectPath>\SoundBanks\Default Work Unit\PineForest</ObjectPath>
+			<ShortName>PineForest</ShortName>
+			<Path>PineForest.bnk</Path>
 			<IncludedEvents>
-				<Event Id="448719855" Name="Destruction_Crystal_Destroy" ObjectPath="\Events\Default Work Unit\Destruction_Crystal_Destroy">
+				<Event Id="808171864" Name="Ambient_Region_PineForest" ObjectPath="\Events\Default Work Unit\Ambient_Region_PineForest">
 					<IncludedMemoryFiles>
-						<File Id="802853182" Language="SFX">
-							<ShortName>349240__natty23__glass-break-2.wav</ShortName>
-							<Path>SFX\349240__natty23__glass-break-2_10C4C929.wem</Path>
+						<File Id="224597432" Language="SFX">
+							<ShortName>624354__leo_touroult__ambience-equatorial-forest-in-the-night-2-river-in-the-back.wav</ShortName>
+							<Path>SFX\624354__leo_touroult__ambience-equatorial-forest-in-the-night-2-river-in-the-back_D79FB2B7.wem</Path>
+						</File>
+						<File Id="320320221" Language="SFX">
+							<ShortName>636425__garuda1982__windy-pine-forest-with-birds-atmo.wav</ShortName>
+							<Path>SFX\636425__garuda1982__windy-pine-forest-with-birds-atmo_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="3945572659" Language="SFX" Hash="3296624187">
+			<ObjectPath>\SoundBanks\Default Work Unit\Village</ObjectPath>
+			<ShortName>Village</ShortName>
+			<Path>Village.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2752753183" Name="Ambient_Region_Village" ObjectPath="\Events\Default Work Unit\Ambient_Region_Village">
+					<IncludedMemoryFiles>
+						<File Id="64507486" Language="SFX">
+							<ShortName>ankandutta18-birds-but-noise-330911_1.wav</ShortName>
+							<Path>SFX\ankandutta18-birds-but-noise-330911_1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="4122393694" Language="SFX" Hash="1284784999">
+			<ObjectPath>\SoundBanks\Default Work Unit\Cave</ObjectPath>
+			<ShortName>Cave</ShortName>
+			<Path>Cave.bnk</Path>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

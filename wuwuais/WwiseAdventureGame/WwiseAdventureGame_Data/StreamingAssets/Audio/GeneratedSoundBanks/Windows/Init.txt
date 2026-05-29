@@ -1,3 +1,10 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2106907484	Music_Regions			\Default Work Unit\Music_Regions	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music_Regions			
+	2482365692	PineForest	Music_Regions			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	1502772432	SFX Bus			\Default Work Unit\SFX Bus	
 	3127962312	Music Bus			\Default Work Unit\Music Bus	

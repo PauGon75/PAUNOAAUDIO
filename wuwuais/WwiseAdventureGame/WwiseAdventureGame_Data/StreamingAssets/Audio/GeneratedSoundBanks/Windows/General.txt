@@ -2,9 +2,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	15662850	UI_Button_Up			\Default Work Unit\UI_Button_Up	
 	18309885	UI_Button_Enter			\Default Work Unit\UI_Button_Enter	
 	156563189	UI_Button_Down			\Default Work Unit\UI_Button_Down	
+	448719855	Destruction_Crystal_Destroy			\Default Work Unit\Destruction_Crystal_Destroy	
 	452547817	Stop_All			\Default Work Unit\Stop_All	
 	808893336	UI_QuestRoll_Close			\Default Work Unit\UI_QuestRoll_Close	
 	949395292	UI_QuestRoll_Open			\Default Work Unit\UI_QuestRoll_Open	
+	1331382810	Ambient_Region_Cave			\Default Work Unit\Ambient_Region_Cave	
 	1464993479	UI_Menu_Resume			\Default Work Unit\UI_Menu_Resume	
 	2199611969	UI_Inventory_Open			\Default Work Unit\UI_Inventory_Open	
 	2278290679	UI_Inventory_Close			\Default Work Unit\UI_Inventory_Close	
@@ -23,6 +25,8 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	165743801	327381__thisisminime__car-horn	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\327381__thisisminime__car-horn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\327381__thisisminime__car-horn		1056064
 	269992882	wood break	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\624150__markdalderup__snapped-wood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\wood break		288836
 	417922200	JDSherbert - Ultimate UI SFX Pack - Select - 1	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Select - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Select - 1		192708
+	481910607	cave ambience3	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\fronbondi_skegs-sfx-horror-ambience-deep-underground-in-cave-sound-effect-368274_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\cave ambience3		11248192
 	607301071	JDSherbert - Ultimate UI SFX Pack - Popup Open - 1	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1		192708
 	762191199	JDSherbert - Ultimate UI SFX Pack - Swipe - 1	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Swipe - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Swipe - 1		74740
+	802853182	crystal break	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\349240__natty23__glass-break-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\crystal break		195444
 

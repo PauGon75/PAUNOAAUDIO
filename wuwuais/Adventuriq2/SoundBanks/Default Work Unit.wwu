@@ -22,30 +22,53 @@
 						<ObjectRef Name="UI_Button_Down" ID="{4B08934E-4DDA-4B8C-B835-15DABF994B63}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_QuestRoll_Hide" ID="{08530FC0-35D1-4BAB-A771-B1779E583BAD}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_QuestRoll_Close" ID="{A83C37DF-49D1-4BE0-BB8F-E7ECC48A7DBD}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Cave" ID="{81669DEF-E763-4C0B-8888-0BFB665B2769}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_QuestRoll_Show" ID="{3FA763F3-3129-4C75-8E66-C79D50521D94}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Stop_All" ID="{3C2678E8-5DE7-4E28-96DC-9BA0FFEBE18B}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Menu_Resume" ID="{7A389ED8-6A63-4FCF-B71F-22FBB2E83EA5}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Destruction_Crystal_Destroy" ID="{F6F30D50-B42F-4FDB-9138-7A99D07ABABD}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Cave" ID="{D674E515-1842-4FEF-8790-2209A23A639D}">
-					<ObjectInclusionList>
-						<ObjectRef Name="Destruction_Crystal_Destroy" ID="{F6F30D50-B42F-4FDB-9138-7A99D07ABABD}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
-					</ObjectInclusionList>
+					<ObjectInclusionList/>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Dungeon" ID="{C15FB81B-9EEE-4076-A185-F7E79127BC0E}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Destruction_Rock_Destroy" ID="{BB563CB7-841A-480C-9022-6ADE7581BBE8}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Ambient_Region_Dungeon" ID="{5282ACB4-4E33-4FEB-850E-2B33B508FB29}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
 				<SoundBank Name="Desert" ID="{9AC01585-B3E7-4F87-A6BA-0E4795BC6832}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Desert" ID="{A19B9276-8295-4692-9445-07BE8B6DDAA3}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Destruction_VolcanicBoulder_Impact" ID="{BED0AFFF-7EC7-4BB7-99CD-38376C3F264D}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="PineForest" ID="{48CF9D88-255F-43E4-B63F-B4A0151DB3F3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_PineForest" ID="{9FEC50D4-CEAA-44FC-B8F5-5B03FCFB7F9C}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Village" ID="{A7AC8E24-2F66-48CE-847D-B3C0BB1C4199}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Village" ID="{2691D65E-4ACD-4AD4-B207-6C31760926AD}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Woodlands" ID="{AB8F3650-D692-4C84-B550-77365D2AD0E8}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Ambient_Region_Woodlands" ID="{C8C60A2E-FC93-49D3-895A-F3CA453BF882}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

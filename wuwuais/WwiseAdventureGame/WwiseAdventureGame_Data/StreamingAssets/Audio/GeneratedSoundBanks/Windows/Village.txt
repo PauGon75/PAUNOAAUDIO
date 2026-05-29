@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2752753183	Ambient_Region_Village			\Default Work Unit\Ambient_Region_Village	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	64507486	village ambience	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\ankandutta18-birds-but-noise-330911_1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\village ambience		11930176
+
