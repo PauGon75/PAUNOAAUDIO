@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo>
-	<Project Name="adventuriq" GUID="{5A5B1710-69EB-43AE-BD68-82252FA831AD}" Generator="2023.1.19.8928"/>
+	<Project Name="adventuriq" GUID="{5A5B1710-69EB-43AE-BD68-82252FA831AD}" Generator="2025.1.3.9039"/>
 	<CacheRoot>../.cache</CacheRoot>
 	<Platforms>
-		<Platform Name="Windows" GUID="{F19DC18D-CE8F-4B05-B94A-4CD68AE95770}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../WwiseAdventureGame/WwiseAdventureGame_Data/StreamingAssets/Audio/GeneratedSoundBanks"/>
+		<Platform Name="Windows" GUID="{F19DC18D-CE8F-4B05-B94A-4CD68AE95770}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../WiseWorkingAdventure/WwiseAdventureGame/WwiseAdventureGame_Data/StreamingAssets/Audio/GeneratedSoundBanks"/>
 	</Platforms>
 	<Languages>
 		<Language Name="English(US)" Id="684519430" GUID="{B2C52E82-045E-4FC4-A1E5-10D7AC804058}" Default="true" UseAsStandIn="true"/>
 	</Languages>
-	<FileHash>{03072333-CFDB-6F6D-520D-06F3C738ED84}</FileHash>
+	<FileHash>{6AA73960-044B-E139-6D4F-97D4EAF1A984}</FileHash>
 </ProjectInfo>
