@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	2752753183	Ambient_Region_Village			\Default Work Unit\Ambient_Region_Village	
-
