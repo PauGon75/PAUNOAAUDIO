@@ -3,6 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3408705206	Ambient_Region_Desert			\Default Work Unit\Ambient_Region_Desert	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	766803	VolcanicBoulder Break	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\317767__jalastram__sfx_explosion_14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\VolcanicBoulder Break		304208
-	1072985991	desert ambience	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\tanweraman-desert-wind-2-350417_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\desert ambience		5713984
+	766803	VolcanicBoulder Break	C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\317767__jalastram__sfx_explosion_14_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\VolcanicBoulder Break		304208
+	1072985991	desert ambience	C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\tanweraman-desert-wind-2-350417_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\desert ambience		5713984
 

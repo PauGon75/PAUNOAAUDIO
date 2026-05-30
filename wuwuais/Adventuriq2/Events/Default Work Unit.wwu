@@ -407,6 +407,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_Health" ID="{DADF9600-1B25-43EC-B965-DEFBB663D22A}">
+					<ChildrenList>
+						<Action Name="" ID="{B6011A0F-C607-4E1A-BD95-3F071D91F888}" ShortID="342285999">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Seq_HeartBeat" ID="{C64AF97A-D948-4C36-985C-120B09A87F7E}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -19,6 +19,7 @@
 						<ObjectRef Name="Ambient_Lava" ID="{5CDA0C93-1EB3-4238-BFF4-E2A8D3443E56}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Exit" ID="{BA8E2AF4-4212-4323-81EA-086C850BA22E}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_River" ID="{6AB8C52F-AB54-4368-9443-910CD86CA847}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Player_Health" ID="{DADF9600-1B25-43EC-B965-DEFBB663D22A}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_Campfire_Play" ID="{86973E2B-8A41-441C-B072-BDA78D267B35}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Ambient_Crystal_Hum" ID="{5719B8F7-5608-4617-819C-BE2533345FDC}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Up" ID="{44CAEA64-CE91-461A-A071-B990D1D5C9FC}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>

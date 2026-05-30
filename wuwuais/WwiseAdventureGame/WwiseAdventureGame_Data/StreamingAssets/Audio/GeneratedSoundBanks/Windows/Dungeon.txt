@@ -3,6 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	4077685701	Ambient_Region_Dungeon			\Default Work Unit\Ambient_Region_Dungeon	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	224209807	dungeon ambience	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\freesound_community-hammering-in-a-cave-25184_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\dungeon ambience		3598912
-	412601567	rock break	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\437602__debsound__brick-debris-fall-06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\rock break		221652
+	224209807	dungeon ambience	C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\freesound_community-hammering-in-a-cave-25184_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\dungeon ambience		3598912
+	412601567	rock break	C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\437602__debsound__brick-debris-fall-06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\rock break		221652
 

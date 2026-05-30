@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\</ProjectRoot>
+		<SourceFilesRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\WwiseAdventureGame\WwiseAdventureGame_Data\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\GithubTochos\NoEsRealEsUnreal\PAUNOAAUDIO\wuwuais\Adventuriq2\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="1305829196">
+		<SoundBank Id="133642231" Language="SFX" Hash="493519386">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -115,74 +115,17 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="746676127" Name="Music_ArcadeMachine_Stop" ObjectPath="\Events\Default Work Unit\Music_ArcadeMachine_Stop"/>
-				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Default Work Unit\Player_Footstep">
+				<Event Id="215992295" Name="Player_Health" ObjectPath="\Events\Default Work Unit\Player_Health">
 					<IncludedMemoryFiles>
-						<File Id="53165151" Language="SFX">
-							<ShortName>813389__luisa_sanchez__steps-on-grass.wav</ShortName>
-							<Path>SFX\813389__luisa_sanchez__steps-on-grass_7519E78B.wem</Path>
+						<File Id="70502331" Language="SFX">
+							<ShortName>Pum.wav</ShortName>
+							<Path>SFX\Pum_10C4C929.wem</Path>
 						</File>
-						<File Id="153249194" Language="SFX">
-							<ShortName>813621__securesubset__footsteps-dirt-grass-ground-nature.wav</ShortName>
-							<Path>SFX\813621__securesubset__footsteps-dirt-grass-ground-nature_15E2417C.wem</Path>
-						</File>
-						<File Id="265062381" Language="SFX">
-							<ShortName>816804__luisa_sanchez__steps-on-wood-2-edit.wav</ShortName>
-							<Path>SFX\816804__luisa_sanchez__steps-on-wood-2-edit_B6A9FD73.wem</Path>
-						</File>
-						<File Id="462526209" Language="SFX">
-							<ShortName>244590__cornwallis89__gravelsand-walking-1.wav</ShortName>
-							<Path>SFX\244590__cornwallis89__gravelsand-walking-1_E7CFFAF1.wem</Path>
-						</File>
-						<File Id="743359155" Language="SFX">
-							<ShortName>824433__siliconesound__feethmn-walking-down-footsteps-stone-staircase-sneaker-old-building-vienna.wav</ShortName>
-							<Path>SFX\824433__siliconesound__feethmn-walking-down-footsteps-stone-staircase-sneaker-old-building-vienna_3676CA92.wem</Path>
-						</File>
-						<File Id="869494430" Language="SFX">
-							<ShortName>530384__nox_sound__footsteps_boots_gritty_ground_stones_leaves_mono.wav</ShortName>
-							<Path>SFX\530384__nox_sound__footsteps_boots_gritty_ground_stones_leaves_mono_CDB8B017.wem</Path>
-						</File>
-						<File Id="1057418391" Language="SFX">
-							<ShortName>317362__robinhood76__05914-walking-in-river-water-loop.wav</ShortName>
-							<Path>SFX\317362__robinhood76__05914-walking-in-river-water-loop_8347025C.wem</Path>
+						<File Id="736013642" Language="SFX">
+							<ShortName>Contraction.wav</ShortName>
+							<Path>SFX\Contraction_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<SwitchContainers>
-						<SwitchContainer SwitchValue="{35AC27C3-B266-4014-8A8E-75C0624BA1AE}">
-							<Media>
-								<File Id="53165151"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{4FDF115D-B90F-42BC-BDCF-AD47CDFE01E7}">
-							<Media>
-								<File Id="265062381"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{D942F023-8518-4CCF-B8D2-2B0C46D0BAC6}">
-							<Media>
-								<File Id="153249194"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{35534BBD-BE13-4BB8-BC4C-6964189D3DC7}">
-							<Media>
-								<File Id="869494430"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{BCA780CA-1430-44FC-8D1E-092E5BACDCBD}">
-							<Media>
-								<File Id="462526209"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{B4CD51E3-647A-4170-874E-BFB7EF164A8E}">
-							<Media>
-								<File Id="743359155"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{822387E3-D705-47F7-9582-BA0FD9CBFFFE}">
-							<Media>
-								<File Id="1057418391"/>
-							</Media>
-						</SwitchContainer>
-					</SwitchContainers>
 				</Event>
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
 				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\Default Work Unit\UI_Button_Down">
@@ -290,26 +233,16 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
-			<SwitchGroups>
-				<SwitchGroup Id="4064446173" Name="Surface_Type" ObjectPath="\Switches\Default Work Unit\Surface_Type">
-					<Switches>
-						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surface_Type\Dirt"/>
-						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\Surface_Type\Grass"/>
-						<Switch Id="582824249" Name="Leaves" ObjectPath="\Switches\Default Work Unit\Surface_Type\Leaves"/>
-						<Switch Id="803837735" Name="Sand" ObjectPath="\Switches\Default Work Unit\Surface_Type\Sand"/>
-						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Surface_Type\Stone"/>
-						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Surface_Type\Water"/>
-						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Surface_Type\Wood"/>
-					</Switches>
-				</SwitchGroup>
-			</SwitchGroups>
+			<GameParameters>
+				<GameParameter Id="215992295" Name="Player_Health" ObjectPath="\Game Parameters\Default Work Unit\Player_Health"/>
+			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="152105657" Language="SFX" Hash="2042045603">
 			<ObjectPath>\SoundBanks\Default Work Unit\TitleScreen</ObjectPath>
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="608898761" Language="SFX" Hash="3404637139">
+		<SoundBank Id="608898761" Language="SFX" Hash="3811434636">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dungeon</ObjectPath>
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
@@ -332,12 +265,40 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="535960225">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1394499140">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="243931001" Name="Dungeon_Forge" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_Forge"/>
+				<AuxBus Id="425911480" Name="Dungeon_Library_Statue" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_Library_Statue"/>
+				<AuxBus Id="567469275" Name="Dungeon_PathToForge" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_PathToForge"/>
+				<AuxBus Id="1156828694" Name="Dungeon_Entrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_Entrance"/>
+				<AuxBus Id="1421251628" Name="WoodLands" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\WoodLands"/>
+				<AuxBus Id="1479780851" Name="RoadToWoodlands" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\RoadToWoodlands"/>
+				<AuxBus Id="1750943985" Name="RoadToPineForest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\RoadToPineForest"/>
+				<AuxBus Id="1850388778" Name="Desert" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Desert"/>
+				<AuxBus Id="1941785149" Name="Dungeon_Library" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_Library"/>
+				<AuxBus Id="2026127448" Name="Dungeon_MezzanineRoomEntrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_MezzanineRoomEntrance"/>
+				<AuxBus Id="2106540524" Name="Dungeon_RoadToCore" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_RoadToCore"/>
+				<AuxBus Id="2213850905" Name="Dungeon_Core" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_Core"/>
+				<AuxBus Id="2482365692" Name="PineForest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\PineForest"/>
+				<AuxBus Id="2598995339" Name="Training" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Training"/>
+				<AuxBus Id="3082052254" Name="PineForest_Hut" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\PineForest_Hut"/>
+				<AuxBus Id="3132368115" Name="WwizardHouse" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\WwizardHouse"/>
+				<AuxBus Id="3352684520" Name="CaveEntrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\CaveEntrance"/>
+				<AuxBus Id="3497669663" Name="RoadToDesert" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\RoadToDesert"/>
+				<AuxBus Id="3945572659" Name="Village" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Village"/>
+				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Cave"/>
+				<AuxBus Id="4158999182" Name="Dungeon_MezzanineRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_MezzanineRoom"/>
+			</IncludedAuxBusses>
+			<GameParameters>
+				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Master_Volume"/>
+				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Music_Volume"/>
+				<GameParameter Id="2693837316" Name="MenuSlider_SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_SFX_Volume"/>
+			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1421251628" Language="SFX" Hash="3429400807">
+		<SoundBank Id="1421251628" Language="SFX" Hash="419311468">
 			<ObjectPath>\SoundBanks\Default Work Unit\Woodlands</ObjectPath>
 			<ShortName>Woodlands</ShortName>
 			<Path>Woodlands.bnk</Path>
@@ -352,7 +313,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1850388778" Language="SFX" Hash="4234024764">
+		<SoundBank Id="1850388778" Language="SFX" Hash="1094138264">
 			<ObjectPath>\SoundBanks\Default Work Unit\Desert</ObjectPath>
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
@@ -375,7 +336,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="2482365692" Language="SFX" Hash="3895088621">
+		<SoundBank Id="2482365692" Language="SFX" Hash="1858545745">
 			<ObjectPath>\SoundBanks\Default Work Unit\PineForest</ObjectPath>
 			<ShortName>PineForest</ShortName>
 			<Path>PineForest.bnk</Path>
@@ -397,7 +358,7 @@
 				<GameParameter Id="207908541" Name="Time_of_Day" ObjectPath="\Game Parameters\Default Work Unit\Time_of_Day"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3945572659" Language="SFX" Hash="3296624187">
+		<SoundBank Id="3945572659" Language="SFX" Hash="2811305127">
 			<ObjectPath>\SoundBanks\Default Work Unit\Village</ObjectPath>
 			<ShortName>Village</ShortName>
 			<Path>Village.bnk</Path>

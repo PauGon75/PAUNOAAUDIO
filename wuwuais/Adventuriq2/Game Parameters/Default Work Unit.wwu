@@ -9,6 +9,10 @@
 						<Property Name="Max" Type="Real64" Value="24"/>
 					</PropertyList>
 				</GameParameter>
+				<GameParameter Name="Player_Health" ID="{8164F936-EEFF-4C9B-95A8-6C749900CC40}"/>
+				<GameParameter Name="MenuSlider_Master_Volume" ID="{B7BA24D5-5F85-4C01-A28F-549270614946}"/>
+				<GameParameter Name="MenuSlider_Music_Volume" ID="{332DCA9A-812D-4B20-AD05-CFF28BB49C12}"/>
+				<GameParameter Name="MenuSlider_SFX_Volume" ID="{503DE2D9-2BDE-4782-BAEC-4497C943ED1E}"/>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>
