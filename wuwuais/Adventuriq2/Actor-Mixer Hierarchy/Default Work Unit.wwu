@@ -1431,6 +1431,943 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+						<SwitchContainer Name="Player_Hit_Container" ID="{7B05BD3C-3A08-4B47-9D82-23FF89CC53D7}" ShortID="202765217">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="Player_Weapon_Type" ID="{6D3E4F32-9FB1-4510-A448-0AB29034B78F}" WorkUnitID="{F4F99582-51FA-4C8B-B65C-5531C07B3047}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<SwitchContainer Name="Impact_Sword" ID="{6A442627-EF57-418B-8442-34FE568FC4D2}" ShortID="818006098">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface_Type" ID="{29E43DE4-FE53-464E-B1D0-2D531767CD7F}" WorkUnitID="{F4F99582-51FA-4C8B-B65C-5531C07B3047}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="sword stone" ID="{FE0EB11C-9479-44AD-B5D8-1E64CAA459EF}" ShortID="34517070">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sword stone" ID="{5B0C6647-7599-44C0-8F43-B9C23B11C496}">
+													<Language>SFX</Language>
+													<AudioFile>sword stone.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="165351178"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="sword stone" ID="{5B0C6647-7599-44C0-8F43-B9C23B11C496}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sword enemy" ID="{350B5599-00D4-46F6-861F-3A8FAAB87BFD}" ShortID="271284012">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sword enemy" ID="{9BB24CD6-832E-4E84-A808-E303DAA8BDBA}">
+													<Language>SFX</Language>
+													<AudioFile>sword enemy.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="362091257"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="sword enemy" ID="{9BB24CD6-832E-4E84-A808-E303DAA8BDBA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sword wood" ID="{6EC7740A-5FE6-4B2D-BB25-28081EEC2F2E}" ShortID="416178594">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sword wood" ID="{F3B852C6-060D-43F7-BB16-02DBF0AE9DB3}">
+													<Language>SFX</Language>
+													<AudioFile>sword wood.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="692328775"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="sword wood" ID="{F3B852C6-060D-43F7-BB16-02DBF0AE9DB3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sword metal" ID="{3F30E7F9-6CB2-4253-A203-5893E52C9B28}" ShortID="924002760">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sword metal" ID="{9F83E5A6-B409-4DFC-8197-29CCE81C6800}">
+													<Language>SFX</Language>
+													<AudioFile>sword metal.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="9461357"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="sword metal" ID="{9F83E5A6-B409-4DFC-8197-29CCE81C6800}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="sword wood" ID="{6EC7740A-5FE6-4B2D-BB25-28081EEC2F2E}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="sword stone" ID="{FE0EB11C-9479-44AD-B5D8-1E64CAA459EF}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="sword enemy" ID="{350B5599-00D4-46F6-861F-3A8FAAB87BFD}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="sword metal" ID="{3F30E7F9-6CB2-4253-A203-5893E52C9B28}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilHead" ID="{F10A6752-159B-4E7D-9862-F5269257DD67}"/>
+												<ItemList>
+													<ItemRef Name="sword enemy" ID="{350B5599-00D4-46F6-861F-3A8FAAB87BFD}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Barrel" ID="{5221C059-1A79-4D08-9062-477B21A2408E}"/>
+												<ItemList>
+													<ItemRef Name="sword wood" ID="{6EC7740A-5FE6-4B2D-BB25-28081EEC2F2E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{4FDF115D-B90F-42BC-BDCF-AD47CDFE01E7}"/>
+												<ItemList>
+													<ItemRef Name="sword wood" ID="{6EC7740A-5FE6-4B2D-BB25-28081EEC2F2E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilCrawler" ID="{B3856297-9943-4BE8-A831-657C9A7B47A0}"/>
+												<ItemList>
+													<ItemRef Name="sword enemy" ID="{350B5599-00D4-46F6-861F-3A8FAAB87BFD}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilSpitPlant" ID="{49FE2EA5-3BBF-4811-BBB6-F9A1A7326AD2}"/>
+												<ItemList>
+													<ItemRef Name="sword enemy" ID="{350B5599-00D4-46F6-861F-3A8FAAB87BFD}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Metal" ID="{5D37E3D6-2EBB-4FA9-99D0-1FCCF396116B}"/>
+												<ItemList>
+													<ItemRef Name="sword metal" ID="{3F30E7F9-6CB2-4253-A203-5893E52C9B28}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{B4CD51E3-647A-4170-874E-BFB7EF164A8E}"/>
+												<ItemList>
+													<ItemRef Name="sword stone" ID="{FE0EB11C-9479-44AD-B5D8-1E64CAA459EF}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Crate" ID="{F17FB8FF-E875-4843-8C55-101A2FF1CB94}"/>
+												<ItemList>
+													<ItemRef Name="sword wood" ID="{6EC7740A-5FE6-4B2D-BB25-28081EEC2F2E}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Impact_Dagger" ID="{83EC35DA-FB63-4D52-A9BD-AA8C1951FA07}" ShortID="281297173">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface_Type" ID="{29E43DE4-FE53-464E-B1D0-2D531767CD7F}" WorkUnitID="{F4F99582-51FA-4C8B-B65C-5531C07B3047}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="sword stone" ID="{84B3C38F-87A3-435C-BB1D-E86122F96E2E}" ShortID="461793875">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sword stone" ID="{7D839C90-F58F-43DF-96EF-4890F060FD98}">
+													<Language>SFX</Language>
+													<AudioFile>sword stone.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="165351178"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="sword stone" ID="{7D839C90-F58F-43DF-96EF-4890F060FD98}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sword enemy" ID="{98BFAB87-1CCF-4774-9B75-70F50CB7D42A}" ShortID="852145161">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sword enemy" ID="{F1E8B339-E728-468B-879C-6BE52CF96814}">
+													<Language>SFX</Language>
+													<AudioFile>sword enemy.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="362091257"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="sword enemy" ID="{F1E8B339-E728-468B-879C-6BE52CF96814}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sword wood" ID="{645604D6-D2B1-4926-A12E-58B1F83BA47B}" ShortID="1018506227">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sword wood" ID="{07487503-B759-43C0-9817-CCE33BE410C5}">
+													<Language>SFX</Language>
+													<AudioFile>sword wood.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="692328775"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="sword wood" ID="{07487503-B759-43C0-9817-CCE33BE410C5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="sword metal" ID="{07F130B0-4B36-4530-9462-FCC06E561663}" ShortID="215374018">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="sword metal" ID="{C8C77E48-5B7B-4CDA-A245-71B8D3FE1565}">
+													<Language>SFX</Language>
+													<AudioFile>sword metal.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="9461357"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="sword metal" ID="{C8C77E48-5B7B-4CDA-A245-71B8D3FE1565}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="sword enemy" ID="{98BFAB87-1CCF-4774-9B75-70F50CB7D42A}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="sword stone" ID="{84B3C38F-87A3-435C-BB1D-E86122F96E2E}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="sword metal" ID="{07F130B0-4B36-4530-9462-FCC06E561663}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="sword wood" ID="{645604D6-D2B1-4926-A12E-58B1F83BA47B}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilHead" ID="{F10A6752-159B-4E7D-9862-F5269257DD67}"/>
+												<ItemList>
+													<ItemRef Name="sword enemy" ID="{98BFAB87-1CCF-4774-9B75-70F50CB7D42A}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Barrel" ID="{5221C059-1A79-4D08-9062-477B21A2408E}"/>
+												<ItemList>
+													<ItemRef Name="sword wood" ID="{645604D6-D2B1-4926-A12E-58B1F83BA47B}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{4FDF115D-B90F-42BC-BDCF-AD47CDFE01E7}"/>
+												<ItemList>
+													<ItemRef Name="sword wood" ID="{645604D6-D2B1-4926-A12E-58B1F83BA47B}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilCrawler" ID="{B3856297-9943-4BE8-A831-657C9A7B47A0}"/>
+												<ItemList>
+													<ItemRef Name="sword enemy" ID="{98BFAB87-1CCF-4774-9B75-70F50CB7D42A}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilSpitPlant" ID="{49FE2EA5-3BBF-4811-BBB6-F9A1A7326AD2}"/>
+												<ItemList>
+													<ItemRef Name="sword enemy" ID="{98BFAB87-1CCF-4774-9B75-70F50CB7D42A}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Metal" ID="{5D37E3D6-2EBB-4FA9-99D0-1FCCF396116B}"/>
+												<ItemList>
+													<ItemRef Name="sword metal" ID="{07F130B0-4B36-4530-9462-FCC06E561663}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{B4CD51E3-647A-4170-874E-BFB7EF164A8E}"/>
+												<ItemList>
+													<ItemRef Name="sword stone" ID="{84B3C38F-87A3-435C-BB1D-E86122F96E2E}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Crate" ID="{F17FB8FF-E875-4843-8C55-101A2FF1CB94}"/>
+												<ItemList>
+													<ItemRef Name="sword wood" ID="{645604D6-D2B1-4926-A12E-58B1F83BA47B}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Impact_Axe" ID="{B7ABB656-B6A6-4F22-9B03-3E4E1FA1A72B}" ShortID="605250461">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface_Type" ID="{29E43DE4-FE53-464E-B1D0-2D531767CD7F}" WorkUnitID="{F4F99582-51FA-4C8B-B65C-5531C07B3047}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="pickaxe metal" ID="{3E7DFB96-7F6E-4D7A-A7A8-EB976D9D5CAC}" ShortID="685309722">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pickaxe metal" ID="{67CD88D9-06AB-41CA-8FC6-3542A6DC6AC1}">
+													<Language>SFX</Language>
+													<AudioFile>pickaxe metal.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="566872298"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="pickaxe metal" ID="{67CD88D9-06AB-41CA-8FC6-3542A6DC6AC1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pickaxe enemy" ID="{380293FA-389B-4DF7-8285-5B8872DE816F}" ShortID="392867328">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pickaxe enemy" ID="{3CA02715-8984-4DB7-A081-4CFA2656E6D0}">
+													<Language>SFX</Language>
+													<AudioFile>pickaxe enemy.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="758140104"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="pickaxe enemy" ID="{3CA02715-8984-4DB7-A081-4CFA2656E6D0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pickaxe wood" ID="{4B72AAD9-28BF-42DE-81DC-EDC9A6B0B615}" ShortID="384431423">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pickaxe wood" ID="{DBAE6712-A3DD-4167-8FF8-B6BD9F6B733F}">
+													<Language>SFX</Language>
+													<AudioFile>pickaxe wood.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="577971467"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="pickaxe wood" ID="{DBAE6712-A3DD-4167-8FF8-B6BD9F6B733F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pickaxe stone" ID="{1D847FD9-D813-47E7-971B-765787771268}" ShortID="10752497">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pickaxe stone" ID="{EC28EDEE-DD75-4BA2-8F77-E86EA9313E4E}">
+													<Language>SFX</Language>
+													<AudioFile>pickaxe stone.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="981986794"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="pickaxe stone" ID="{EC28EDEE-DD75-4BA2-8F77-E86EA9313E4E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="pickaxe metal" ID="{3E7DFB96-7F6E-4D7A-A7A8-EB976D9D5CAC}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="pickaxe stone" ID="{1D847FD9-D813-47E7-971B-765787771268}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="pickaxe wood" ID="{4B72AAD9-28BF-42DE-81DC-EDC9A6B0B615}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="pickaxe enemy" ID="{380293FA-389B-4DF7-8285-5B8872DE816F}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilHead" ID="{F10A6752-159B-4E7D-9862-F5269257DD67}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe enemy" ID="{380293FA-389B-4DF7-8285-5B8872DE816F}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Barrel" ID="{5221C059-1A79-4D08-9062-477B21A2408E}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe wood" ID="{4B72AAD9-28BF-42DE-81DC-EDC9A6B0B615}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{4FDF115D-B90F-42BC-BDCF-AD47CDFE01E7}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe wood" ID="{4B72AAD9-28BF-42DE-81DC-EDC9A6B0B615}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilCrawler" ID="{B3856297-9943-4BE8-A831-657C9A7B47A0}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe enemy" ID="{380293FA-389B-4DF7-8285-5B8872DE816F}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilSpitPlant" ID="{49FE2EA5-3BBF-4811-BBB6-F9A1A7326AD2}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe enemy" ID="{380293FA-389B-4DF7-8285-5B8872DE816F}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Metal" ID="{5D37E3D6-2EBB-4FA9-99D0-1FCCF396116B}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe metal" ID="{3E7DFB96-7F6E-4D7A-A7A8-EB976D9D5CAC}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{B4CD51E3-647A-4170-874E-BFB7EF164A8E}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe stone" ID="{1D847FD9-D813-47E7-971B-765787771268}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Crate" ID="{F17FB8FF-E875-4843-8C55-101A2FF1CB94}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe wood" ID="{4B72AAD9-28BF-42DE-81DC-EDC9A6B0B615}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Impact_Hammer" ID="{BFEA89D0-CB92-4F9E-B91E-D3C4B8CE138B}" ShortID="901342831">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface_Type" ID="{29E43DE4-FE53-464E-B1D0-2D531767CD7F}" WorkUnitID="{F4F99582-51FA-4C8B-B65C-5531C07B3047}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="hammer metal" ID="{727AE224-6CFA-42E4-A099-0953B95B33DD}" ShortID="261674026">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="hammer metal" ID="{105D2157-DDD3-4B68-A69C-D7AE54143324}">
+													<Language>SFX</Language>
+													<AudioFile>hammer metal.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="246018625"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="hammer metal" ID="{105D2157-DDD3-4B68-A69C-D7AE54143324}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="hammer stone" ID="{D46E4D28-36E3-401A-8C63-7CD539DBE719}" ShortID="580482832">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="hammer stone" ID="{5B807529-4B1C-4544-85ED-B14EDCB912E4}">
+													<Language>SFX</Language>
+													<AudioFile>hammer stone.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="174285788"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="hammer stone" ID="{5B807529-4B1C-4544-85ED-B14EDCB912E4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="hammer enemy" ID="{C66DEBEE-DDB9-4825-A17E-FEA688B1A1ED}" ShortID="1010523399">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="hammer enemy" ID="{EEF1CA02-DD04-4122-949A-D93E6A688924}">
+													<Language>SFX</Language>
+													<AudioFile>hammer enemy.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="360777856"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="hammer enemy" ID="{EEF1CA02-DD04-4122-949A-D93E6A688924}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="hammer wood" ID="{FEB94282-0A12-42F3-A5BB-4EE4CC4F4AC9}" ShortID="677868120">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="hammer wood" ID="{FC1AE343-E405-47F0-BF07-88E275F821AE}">
+													<Language>SFX</Language>
+													<AudioFile>hammer wood.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="983474242"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="hammer wood" ID="{FC1AE343-E405-47F0-BF07-88E275F821AE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="hammer metal" ID="{727AE224-6CFA-42E4-A099-0953B95B33DD}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="hammer stone" ID="{D46E4D28-36E3-401A-8C63-7CD539DBE719}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="hammer wood" ID="{FEB94282-0A12-42F3-A5BB-4EE4CC4F4AC9}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="hammer enemy" ID="{C66DEBEE-DDB9-4825-A17E-FEA688B1A1ED}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilHead" ID="{F10A6752-159B-4E7D-9862-F5269257DD67}"/>
+												<ItemList>
+													<ItemRef Name="hammer enemy" ID="{C66DEBEE-DDB9-4825-A17E-FEA688B1A1ED}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Barrel" ID="{5221C059-1A79-4D08-9062-477B21A2408E}"/>
+												<ItemList>
+													<ItemRef Name="hammer wood" ID="{FEB94282-0A12-42F3-A5BB-4EE4CC4F4AC9}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{4FDF115D-B90F-42BC-BDCF-AD47CDFE01E7}"/>
+												<ItemList>
+													<ItemRef Name="hammer wood" ID="{FEB94282-0A12-42F3-A5BB-4EE4CC4F4AC9}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilCrawler" ID="{B3856297-9943-4BE8-A831-657C9A7B47A0}"/>
+												<ItemList>
+													<ItemRef Name="hammer enemy" ID="{C66DEBEE-DDB9-4825-A17E-FEA688B1A1ED}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilSpitPlant" ID="{49FE2EA5-3BBF-4811-BBB6-F9A1A7326AD2}"/>
+												<ItemList>
+													<ItemRef Name="hammer enemy" ID="{C66DEBEE-DDB9-4825-A17E-FEA688B1A1ED}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Metal" ID="{5D37E3D6-2EBB-4FA9-99D0-1FCCF396116B}"/>
+												<ItemList>
+													<ItemRef Name="hammer metal" ID="{727AE224-6CFA-42E4-A099-0953B95B33DD}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{B4CD51E3-647A-4170-874E-BFB7EF164A8E}"/>
+												<ItemList>
+													<ItemRef Name="hammer stone" ID="{D46E4D28-36E3-401A-8C63-7CD539DBE719}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Crate" ID="{F17FB8FF-E875-4843-8C55-101A2FF1CB94}"/>
+												<ItemList>
+													<ItemRef Name="hammer wood" ID="{FEB94282-0A12-42F3-A5BB-4EE4CC4F4AC9}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+								<SwitchContainer Name="Impact_PickAxe" ID="{433D0229-E0A1-4EAC-9F9F-557649C3F0BF}" ShortID="910121668">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="Surface_Type" ID="{29E43DE4-FE53-464E-B1D0-2D531767CD7F}" WorkUnitID="{F4F99582-51FA-4C8B-B65C-5531C07B3047}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="pickaxe metal" ID="{1225D535-AAC7-4112-94FE-3848B4FE604D}" ShortID="765454874">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pickaxe metal" ID="{2986BF28-F8A0-4245-9525-17B57D2F98E0}">
+													<Language>SFX</Language>
+													<AudioFile>pickaxe metal.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="566872298"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="pickaxe metal" ID="{2986BF28-F8A0-4245-9525-17B57D2F98E0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pickaxe enemy" ID="{C6F2D0AB-65B0-4CD3-956F-62D18505F276}" ShortID="817627494">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pickaxe enemy" ID="{113FAF52-4326-4BC9-917F-ACCA38A34352}">
+													<Language>SFX</Language>
+													<AudioFile>pickaxe enemy.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="758140104"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="pickaxe enemy" ID="{113FAF52-4326-4BC9-917F-ACCA38A34352}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pickaxe wood" ID="{DFE2199B-FB79-4F9F-B582-DA57F025C1A6}" ShortID="1064782695">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pickaxe wood" ID="{CE28B1EE-66FB-4045-B6D1-A04FA145BB3B}">
+													<Language>SFX</Language>
+													<AudioFile>pickaxe wood.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="577971467"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="pickaxe wood" ID="{CE28B1EE-66FB-4045-B6D1-A04FA145BB3B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="pickaxe stone" ID="{55E78178-043D-4725-942D-D333C5F249C3}" ShortID="576669488">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="pickaxe stone" ID="{1DE63FE4-B0F4-4D5F-B86E-6108D684486F}">
+													<Language>SFX</Language>
+													<AudioFile>pickaxe stone.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="981986794"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="pickaxe stone" ID="{1DE63FE4-B0F4-4D5F-B86E-6108D684486F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="pickaxe metal" ID="{1225D535-AAC7-4112-94FE-3848B4FE604D}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="pickaxe stone" ID="{55E78178-043D-4725-942D-D333C5F249C3}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="pickaxe wood" ID="{DFE2199B-FB79-4F9F-B582-DA57F025C1A6}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="pickaxe enemy" ID="{C6F2D0AB-65B0-4CD3-956F-62D18505F276}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilHead" ID="{F10A6752-159B-4E7D-9862-F5269257DD67}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe enemy" ID="{C6F2D0AB-65B0-4CD3-956F-62D18505F276}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Barrel" ID="{5221C059-1A79-4D08-9062-477B21A2408E}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe wood" ID="{DFE2199B-FB79-4F9F-B582-DA57F025C1A6}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Wood" ID="{4FDF115D-B90F-42BC-BDCF-AD47CDFE01E7}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe wood" ID="{DFE2199B-FB79-4F9F-B582-DA57F025C1A6}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilCrawler" ID="{B3856297-9943-4BE8-A831-657C9A7B47A0}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe enemy" ID="{C6F2D0AB-65B0-4CD3-956F-62D18505F276}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Enemy_EvilSpitPlant" ID="{49FE2EA5-3BBF-4811-BBB6-F9A1A7326AD2}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe enemy" ID="{C6F2D0AB-65B0-4CD3-956F-62D18505F276}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Metal" ID="{5D37E3D6-2EBB-4FA9-99D0-1FCCF396116B}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe metal" ID="{1225D535-AAC7-4112-94FE-3848B4FE604D}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Stone" ID="{B4CD51E3-647A-4170-874E-BFB7EF164A8E}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe stone" ID="{55E78178-043D-4725-942D-D333C5F249C3}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="Crate" ID="{F17FB8FF-E875-4843-8C55-101A2FF1CB94}"/>
+												<ItemList>
+													<ItemRef Name="pickaxe wood" ID="{DFE2199B-FB79-4F9F-B582-DA57F025C1A6}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+							<ObjectLists/>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Impact_Sword" ID="{6A442627-EF57-418B-8442-34FE568FC4D2}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Impact_PickAxe" ID="{433D0229-E0A1-4EAC-9F9F-557649C3F0BF}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Impact_Axe" ID="{B7ABB656-B6A6-4F22-9B03-3E4E1FA1A72B}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Impact_Hammer" ID="{BFEA89D0-CB92-4F9E-B91E-D3C4B8CE138B}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Impact_Dagger" ID="{83EC35DA-FB63-4D52-A9BD-AA8C1951FA07}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="Axe" ID="{E8EC9E00-F6E2-48DB-9515-E89642FF8764}"/>
+										<ItemList>
+											<ItemRef Name="Impact_Axe" ID="{B7ABB656-B6A6-4F22-9B03-3E4E1FA1A72B}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PickAxe" ID="{D6653102-2A43-4653-854D-8B7B8BE36F08}"/>
+										<ItemList>
+											<ItemRef Name="Impact_PickAxe" ID="{433D0229-E0A1-4EAC-9F9F-557649C3F0BF}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Sword" ID="{5451BA65-E76B-46F9-A79F-19A9DD97752B}"/>
+										<ItemList>
+											<ItemRef Name="Impact_Sword" ID="{6A442627-EF57-418B-8442-34FE568FC4D2}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Dagger" ID="{3C1AADA2-568C-4855-86A9-3B89110730EC}"/>
+										<ItemList>
+											<ItemRef Name="Impact_Dagger" ID="{83EC35DA-FB63-4D52-A9BD-AA8C1951FA07}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="Hammer" ID="{1CAE49CE-B77F-4342-BDC1-11BE580F0215}"/>
+										<ItemList>
+											<ItemRef Name="Impact_Hammer" ID="{BFEA89D0-CB92-4F9E-B91E-D3C4B8CE138B}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

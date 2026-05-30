@@ -440,6 +440,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_WeaponImpact" ID="{B199178F-7250-48CE-8A03-CA8498BABCED}">
+					<ChildrenList>
+						<Action Name="" ID="{EA12086B-8D58-43FC-A20B-2FD2871F07FA}" ShortID="879862605">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Hit_Container" ID="{7B05BD3C-3A08-4B47-9D82-23FF89CC53D7}" WorkUnitID="{B05308E7-CBBE-43A1-94FE-E690074E2993}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

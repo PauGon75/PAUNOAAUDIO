@@ -12,6 +12,21 @@
 						<Switch Name="Stone" ID="{B4CD51E3-647A-4170-874E-BFB7EF164A8E}"/>
 						<Switch Name="Water" ID="{822387E3-D705-47F7-9582-BA0FD9CBFFFE}"/>
 						<Switch Name="Wood" ID="{4FDF115D-B90F-42BC-BDCF-AD47CDFE01E7}"/>
+						<Switch Name="Barrel" ID="{5221C059-1A79-4D08-9062-477B21A2408E}"/>
+						<Switch Name="Crate" ID="{F17FB8FF-E875-4843-8C55-101A2FF1CB94}"/>
+						<Switch Name="Enemy_EvilCrawler" ID="{B3856297-9943-4BE8-A831-657C9A7B47A0}"/>
+						<Switch Name="Enemy_EvilHead" ID="{F10A6752-159B-4E7D-9862-F5269257DD67}"/>
+						<Switch Name="Enemy_EvilSpitPlant" ID="{49FE2EA5-3BBF-4811-BBB6-F9A1A7326AD2}"/>
+						<Switch Name="Metal" ID="{5D37E3D6-2EBB-4FA9-99D0-1FCCF396116B}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Player_Weapon_Type" ID="{6D3E4F32-9FB1-4510-A448-0AB29034B78F}">
+					<ChildrenList>
+						<Switch Name="Axe" ID="{E8EC9E00-F6E2-48DB-9515-E89642FF8764}"/>
+						<Switch Name="Hammer" ID="{1CAE49CE-B77F-4342-BDC1-11BE580F0215}"/>
+						<Switch Name="Dagger" ID="{3C1AADA2-568C-4855-86A9-3B89110730EC}"/>
+						<Switch Name="PickAxe" ID="{D6653102-2A43-4653-854D-8B7B8BE36F08}"/>
+						<Switch Name="Sword" ID="{5451BA65-E76B-46F9-A79F-19A9DD97752B}"/>
 					</ChildrenList>
 				</SwitchGroup>
 			</ChildrenList>
