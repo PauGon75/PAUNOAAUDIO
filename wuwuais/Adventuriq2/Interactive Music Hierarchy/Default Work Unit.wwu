@@ -1,6 +1,166 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8B5E897B-7E66-4BC3-9706-94CE93E5CAD3}" SchemaVersion="103">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{8B5E897B-7E66-4BC3-9706-94CE93E5CAD3}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8B5E897B-7E66-4BC3-9706-94CE93E5CAD3}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSwitchContainer Name="Gameplay_Music_System" ID="{19DAB9C3-1E61-4A4A-AB7D-871F82B29478}" ShortID="773015869">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{CCD028AD-B048-4216-A0A6-72D05EB52362}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Music_Region" ID="{FAE58845-E7DE-49C9-BE2D-58B72236E57D}" ShortID="554143729">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="cantinamusic" ID="{4FA4AF61-1A6D-4255-AED7-178A39289380}" ShortID="110851049">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="28826.7716535433"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6038886A-2D2A-47B9-AFAB-255C7CE6C9B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Star Wars Cantina" ID="{EB377C37-22AD-4F29-AAAE-D8430B4A659F}" ShortID="436591537">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{12D9CDCE-B0F7-486E-8B96-68D6B4446270}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Star Wars Cantina" ID="{3F52B68D-EDFF-4484-A483-6032DB49DA24}">
+													<Language>SFX</Language>
+													<AudioFile>Star Wars Cantina.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1059899869"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8B4A131E-CEA2-4B9A-9FAF-5659D0A22B94}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{680795E8-24F9-44FB-B6F7-53A72C65D0AC}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Star Wars Cantina" ID="{9AB23AD5-7DB7-4689-A905-1E4C5136E0C8}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="27585.306122449"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Star Wars Cantina" ID="{3F52B68D-EDFF-4484-A483-6032DB49DA24}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{FDC93C5A-4022-4DD2-B101-BA9D912B64C1}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{FE329870-DD3A-4A53-A9D7-B2B41FFCC6F5}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="27586.6141732283"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{91BBEC9A-D6EE-4B7A-98F5-EFCB3C0A6BC0}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{863F5C75-CAD8-4A9D-9B4C-E66DC5755F83}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{2E31DA6D-73C4-49E4-9361-171D0A11469B}" ShortID="520677240">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C285675D-12A0-4AC7-B582-1A4A3177F986}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{D499B436-CFF8-4E9F-8C32-643640A5F885}" ShortID="430302367">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="cantinamusic" ID="{4FA4AF61-1A6D-4255-AED7-178A39289380}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{D0176636-FD45-4C74-808B-F3CF45DB5537}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{F3FA435E-87E3-4587-AD95-9CDC01118777}">
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>

@@ -24,6 +24,7 @@
 						<ObjectRef Name="Ambient_Crystal_Hum" ID="{5719B8F7-5608-4617-819C-BE2533345FDC}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Button_Up" ID="{44CAEA64-CE91-461A-A071-B990D1D5C9FC}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_QuestRoll_Open" ID="{CADDF53A-FCF1-46FC-90C8-33857CBF93E1}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music_Region" ID="{BBF5545E-1B83-4759-9746-D430A35D5E14}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI_Inventory_Open" ID="{0AFA167A-C21C-48FC-88DB-94F91525B649}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Door_DLCdoor_Open_Play" ID="{0564AAE1-D971-4A51-ADF5-D89790F963E7}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music_ArcadeMachine_Play" ID="{6D9F3A18-2BF3-4B21-9E3D-2C424E26C461}" WorkUnitID="{ACD7F6FD-ECA0-44A5-A467-FE57721C5D88}" Origin="Manual" Filter="7"/>

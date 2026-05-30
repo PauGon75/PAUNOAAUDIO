@@ -26,6 +26,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3556635307	Door_DLCdoor_Open_Play			\Default Work Unit\Door_DLCdoor_Open_Play	
 	3664581270	Ambient_Campfire_Play			\Default Work Unit\Ambient_Campfire_Play	
 	3699139167	UI_QuestRoll_Show			\Default Work Unit\UI_QuestRoll_Show	
+	3741135221	Music_Region			\Default Work Unit\Music_Region	
 	3749307760	UI_Inventory_Roll			\Default Work Unit\UI_Inventory_Roll	
 	4254124015	Destruction_Container			\Default Work Unit\Destruction_Container	
 	4275106484	Ambient_Lava			\Default Work Unit\Ambient_Lava	
