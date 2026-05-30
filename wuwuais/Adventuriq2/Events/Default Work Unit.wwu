@@ -418,12 +418,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Music_Region" ID="{BBF5545E-1B83-4759-9746-D430A35D5E14}">
+				<Event Name="Music_Region" ID="{61C6416E-97E0-4C92-BDA4-276D8B08BC18}">
 					<ChildrenList>
-						<Action Name="" ID="{4CBA973A-4566-418F-BE10-398AFEF7E960}" ShortID="909844467">
+						<Action Name="" ID="{6F860FA0-EC3F-47CC-83B8-AC8E05FC1F9D}" ShortID="151303391">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Gameplay_Music_System" ID="{19DAB9C3-1E61-4A4A-AB7D-871F82B29478}" WorkUnitID="{8B5E897B-7E66-4BC3-9706-94CE93E5CAD3}"/>
+									<ObjectRef Name="Music_Region" ID="{85BCB46A-2C9B-43AD-AFF0-9EA6B1FBD788}" WorkUnitID="{8B5E897B-7E66-4BC3-9706-94CE93E5CAD3}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

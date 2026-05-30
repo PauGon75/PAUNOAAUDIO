@@ -8,35 +8,33 @@ State	ID	Name	State Group			Notes
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1333239961	MenuSlider_Master_Volume			\Default Work Unit\MenuSlider_Master_Volume	
 	2642438544	MenuSlider_Music_Volume			\Default Work Unit\MenuSlider_Music_Volume	
-	2693837316	MenuSlider_SFX_Volume			\Default Work Unit\MenuSlider_SFX_Volume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	393239870	SFX			\Default Work Unit\SFX	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Music	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
-	243931001	Dungeon_Forge			\Default Work Unit\SFX\Dungeon_Forge	
-	425911480	Dungeon_Library_Statue			\Default Work Unit\SFX\Dungeon_Library_Statue	
-	567469275	Dungeon_PathToForge			\Default Work Unit\SFX\Dungeon_PathToForge	
-	1156828694	Dungeon_Entrance			\Default Work Unit\SFX\Dungeon_Entrance	
-	1421251628	WoodLands			\Default Work Unit\SFX\WoodLands	
-	1479780851	RoadToWoodlands			\Default Work Unit\SFX\RoadToWoodlands	
-	1750943985	RoadToPineForest			\Default Work Unit\SFX\RoadToPineForest	
-	1850388778	Desert			\Default Work Unit\SFX\Desert	
-	1941785149	Dungeon_Library			\Default Work Unit\SFX\Dungeon_Library	
-	2026127448	Dungeon_MezzanineRoomEntrance			\Default Work Unit\SFX\Dungeon_MezzanineRoomEntrance	
-	2106540524	Dungeon_RoadToCore			\Default Work Unit\SFX\Dungeon_RoadToCore	
-	2213850905	Dungeon_Core			\Default Work Unit\SFX\Dungeon_Core	
-	2482365692	PineForest			\Default Work Unit\SFX\PineForest	
-	2598995339	Training			\Default Work Unit\SFX\Training	
-	3082052254	PineForest_Hut			\Default Work Unit\SFX\PineForest_Hut	
-	3132368115	WwizardHouse			\Default Work Unit\SFX\WwizardHouse	
-	3352684520	CaveEntrance			\Default Work Unit\SFX\CaveEntrance	
-	3497669663	RoadToDesert			\Default Work Unit\SFX\RoadToDesert	
-	3945572659	Village			\Default Work Unit\SFX\Village	
-	4122393694	Cave			\Default Work Unit\SFX\Cave	
-	4158999182	Dungeon_MezzanineRoom			\Default Work Unit\SFX\Dungeon_MezzanineRoom	
+	243931001	Dungeon_Forge			\Default Work Unit\Master Audio Bus\Dungeon_Forge	
+	425911480	Dungeon_Library_Statue			\Default Work Unit\Master Audio Bus\Dungeon_Library_Statue	
+	567469275	Dungeon_PathToForge			\Default Work Unit\Master Audio Bus\Dungeon_PathToForge	
+	1156828694	Dungeon_Entrance			\Default Work Unit\Master Audio Bus\Dungeon_Entrance	
+	1421251628	WoodLands			\Default Work Unit\Master Audio Bus\WoodLands	
+	1479780851	RoadToWoodlands			\Default Work Unit\Master Audio Bus\RoadToWoodlands	
+	1750943985	RoadToPineForest			\Default Work Unit\Master Audio Bus\RoadToPineForest	
+	1850388778	Desert			\Default Work Unit\Master Audio Bus\Desert	
+	1941785149	Dungeon_Library			\Default Work Unit\Master Audio Bus\Dungeon_Library	
+	2026127448	Dungeon_MezzanineRoomEntrance			\Default Work Unit\Master Audio Bus\Dungeon_MezzanineRoomEntrance	
+	2106540524	Dungeon_RoadToCore			\Default Work Unit\Master Audio Bus\Dungeon_RoadToCore	
+	2213850905	Dungeon_Core			\Default Work Unit\Master Audio Bus\Dungeon_Core	
+	2482365692	PineForest			\Default Work Unit\Master Audio Bus\PineForest	
+	2598995339	Training			\Default Work Unit\Master Audio Bus\Training	
+	3082052254	PineForest_Hut			\Default Work Unit\Master Audio Bus\PineForest_Hut	
+	3132368115	WwizardHouse			\Default Work Unit\Master Audio Bus\WwizardHouse	
+	3352684520	CaveEntrance			\Default Work Unit\Master Audio Bus\CaveEntrance	
+	3497669663	RoadToDesert			\Default Work Unit\Master Audio Bus\RoadToDesert	
+	3945572659	Village			\Default Work Unit\Master Audio Bus\Village	
+	4122393694	Cave			\Default Work Unit\Master Audio Bus\Cave	
+	4158999182	Dungeon_MezzanineRoom			\Default Work Unit\Master Audio Bus\Dungeon_MezzanineRoom	
 
 Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			

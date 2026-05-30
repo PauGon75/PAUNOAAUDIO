@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="3852178656">
+		<SoundBank Id="133642231" Language="SFX" Hash="1421289934">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -115,7 +115,14 @@
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="746676127" Name="Music_ArcadeMachine_Stop" ObjectPath="\Events\Default Work Unit\Music_ArcadeMachine_Stop"/>
-				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Default Work Unit\Music_Region"/>
+				<Event Id="3741135221" Name="Music_Region" ObjectPath="\Events\Default Work Unit\Music_Region">
+					<IncludedMemoryFiles>
+						<File Id="499477094" Language="SFX">
+							<ShortName>freesound_community-ambient-game-67014.wav</ShortName>
+							<Path>SFX\freesound_community-ambient-game-67014_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="215992295" Name="Player_Health" ObjectPath="\Events\Default Work Unit\Player_Health">
 					<IncludedMemoryFiles>
 						<File Id="70502331" Language="SFX">
@@ -243,7 +250,7 @@
 			<ShortName>TitleScreen</ShortName>
 			<Path>TitleScreen.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="608898761" Language="SFX" Hash="3811434636">
+		<SoundBank Id="608898761" Language="SFX" Hash="1124642496">
 			<ObjectPath>\SoundBanks\Default Work Unit\Dungeon</ObjectPath>
 			<ShortName>Dungeon</ShortName>
 			<Path>Dungeon.bnk</Path>
@@ -266,37 +273,36 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1394499140">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2941413318">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<IncludedAuxBusses>
-				<AuxBus Id="243931001" Name="Dungeon_Forge" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_Forge"/>
-				<AuxBus Id="425911480" Name="Dungeon_Library_Statue" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_Library_Statue"/>
-				<AuxBus Id="567469275" Name="Dungeon_PathToForge" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_PathToForge"/>
-				<AuxBus Id="1156828694" Name="Dungeon_Entrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_Entrance"/>
-				<AuxBus Id="1421251628" Name="WoodLands" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\WoodLands"/>
-				<AuxBus Id="1479780851" Name="RoadToWoodlands" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\RoadToWoodlands"/>
-				<AuxBus Id="1750943985" Name="RoadToPineForest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\RoadToPineForest"/>
-				<AuxBus Id="1850388778" Name="Desert" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Desert"/>
-				<AuxBus Id="1941785149" Name="Dungeon_Library" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_Library"/>
-				<AuxBus Id="2026127448" Name="Dungeon_MezzanineRoomEntrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_MezzanineRoomEntrance"/>
-				<AuxBus Id="2106540524" Name="Dungeon_RoadToCore" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_RoadToCore"/>
-				<AuxBus Id="2213850905" Name="Dungeon_Core" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_Core"/>
-				<AuxBus Id="2482365692" Name="PineForest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\PineForest"/>
-				<AuxBus Id="2598995339" Name="Training" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Training"/>
-				<AuxBus Id="3082052254" Name="PineForest_Hut" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\PineForest_Hut"/>
-				<AuxBus Id="3132368115" Name="WwizardHouse" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\WwizardHouse"/>
-				<AuxBus Id="3352684520" Name="CaveEntrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\CaveEntrance"/>
-				<AuxBus Id="3497669663" Name="RoadToDesert" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\RoadToDesert"/>
-				<AuxBus Id="3945572659" Name="Village" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Village"/>
-				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Cave"/>
-				<AuxBus Id="4158999182" Name="Dungeon_MezzanineRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\SFX\Dungeon_MezzanineRoom"/>
+				<AuxBus Id="243931001" Name="Dungeon_Forge" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Forge"/>
+				<AuxBus Id="425911480" Name="Dungeon_Library_Statue" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Library_Statue"/>
+				<AuxBus Id="567469275" Name="Dungeon_PathToForge" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_PathToForge"/>
+				<AuxBus Id="1156828694" Name="Dungeon_Entrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Entrance"/>
+				<AuxBus Id="1421251628" Name="WoodLands" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\WoodLands"/>
+				<AuxBus Id="1479780851" Name="RoadToWoodlands" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoadToWoodlands"/>
+				<AuxBus Id="1750943985" Name="RoadToPineForest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoadToPineForest"/>
+				<AuxBus Id="1850388778" Name="Desert" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Desert"/>
+				<AuxBus Id="1941785149" Name="Dungeon_Library" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Library"/>
+				<AuxBus Id="2026127448" Name="Dungeon_MezzanineRoomEntrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_MezzanineRoomEntrance"/>
+				<AuxBus Id="2106540524" Name="Dungeon_RoadToCore" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_RoadToCore"/>
+				<AuxBus Id="2213850905" Name="Dungeon_Core" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_Core"/>
+				<AuxBus Id="2482365692" Name="PineForest" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PineForest"/>
+				<AuxBus Id="2598995339" Name="Training" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Training"/>
+				<AuxBus Id="3082052254" Name="PineForest_Hut" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\PineForest_Hut"/>
+				<AuxBus Id="3132368115" Name="WwizardHouse" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\WwizardHouse"/>
+				<AuxBus Id="3352684520" Name="CaveEntrance" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\CaveEntrance"/>
+				<AuxBus Id="3497669663" Name="RoadToDesert" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\RoadToDesert"/>
+				<AuxBus Id="3945572659" Name="Village" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Village"/>
+				<AuxBus Id="4122393694" Name="Cave" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Cave"/>
+				<AuxBus Id="4158999182" Name="Dungeon_MezzanineRoom" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Dungeon_MezzanineRoom"/>
 			</IncludedAuxBusses>
 			<GameParameters>
 				<GameParameter Id="1333239961" Name="MenuSlider_Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Master_Volume"/>
 				<GameParameter Id="2642438544" Name="MenuSlider_Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_Music_Volume"/>
-				<GameParameter Id="2693837316" Name="MenuSlider_SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\MenuSlider_SFX_Volume"/>
 			</GameParameters>
 		</SoundBank>
 		<SoundBank Id="1421251628" Language="SFX" Hash="419311468">
@@ -314,7 +320,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1850388778" Language="SFX" Hash="1094138264">
+		<SoundBank Id="1850388778" Language="SFX" Hash="3279631978">
 			<ObjectPath>\SoundBanks\Default Work Unit\Desert</ObjectPath>
 			<ShortName>Desert</ShortName>
 			<Path>Desert.bnk</Path>
