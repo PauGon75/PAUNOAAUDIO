@@ -26,6 +26,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3237189652	UI_Menu_Pause			\Default Work Unit\UI_Menu_Pause	
 	3556635307	Door_DLCdoor_Open_Play			\Default Work Unit\Door_DLCdoor_Open_Play	
 	3664581270	Ambient_Campfire_Play			\Default Work Unit\Ambient_Campfire_Play	
+	3695342915	Player_WeaponImpact			\Default Work Unit\Player_WeaponImpact	
 	3699139167	UI_QuestRoll_Show			\Default Work Unit\UI_QuestRoll_Show	
 	3741135221	Music_Region			\Default Work Unit\Music_Region	
 	3749307760	UI_Inventory_Roll			\Default Work Unit\UI_Inventory_Roll	
@@ -33,21 +34,34 @@ Event	ID	Name			Wwise Object Path	Notes
 	4275106484	Ambient_Lava			\Default Work Unit\Ambient_Lava	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
+	3251833556	Player_Weapon_Type			\Default Work Unit\Player_Weapon_Type	
 	4064446173	Surface_Type			\Default Work Unit\Surface_Type	
 
 Switch	ID	Name	Switch Group			Notes
+	490825222	PickAxe	Player_Weapon_Type			
+	703486095	Hammer	Player_Weapon_Type			
+	765201635	Axe	Player_Weapon_Type			
+	2454616260	Sword	Player_Weapon_Type			
+	3732162827	Dagger	Player_Weapon_Type			
+	442447909	Barrel	Surface_Type			
 	582824249	Leaves	Surface_Type			
 	803837735	Sand	Surface_Type			
 	1216965916	Stone	Surface_Type			
+	1647104456	Enemy_EvilCrawler	Surface_Type			
 	2058049674	Wood	Surface_Type			
 	2195636714	Dirt	Surface_Type			
+	2473969246	Metal	Surface_Type			
 	2654748154	Water	Surface_Type			
+	3065846598	Enemy_EvilHead	Surface_Type			
+	3098439042	Crate	Surface_Type			
+	3276966729	Enemy_EvilSpitPlant	Surface_Type			
 	4248645337	Grass	Surface_Type			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	215992295	Player_Health			\Default Work Unit\Player_Health	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	9461357	sword metal	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\sword metal_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Hit_Container\Impact_Sword\sword metal		89240
 	67530667	JDSherbert - Ultimate UI SFX Pack - Cancel - 1	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Cancel - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Cancel - 1		192708
 	70502331	Pum	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\Pum_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Seq_HeartBeat\Pum		136664
 	70562922	JDSherbert - Ultimate UI SFX Pack - Swipe - 2	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Swipe - 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Swipe - 2		68240
@@ -55,26 +69,37 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	88927247	3d emitter lava	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\freesound_community-lava-loop-1-67307_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emitter lava		1926208
 	130874871	JDSherbert - Ultimate UI SFX Pack - Popup Close - 1	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Popup Close - 1		192708
 	145288787	JDSherbert - Ultimate UI SFX Pack - Select - 2	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Select - 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Select - 2		192788
+	165351178	sword stone	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\sword stone_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Hit_Container\Impact_Sword\sword stone		404932
 	165743801	327381__thisisminime__car-horn	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\327381__thisisminime__car-horn_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\327381__thisisminime__car-horn		1056064
+	174285788	hammer stone	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\hammer stone_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Hit_Container\Impact_Hammer\hammer stone		2511444
 	191681102	3d emmiter crystal	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\koiroylers-mystical-355968_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emmiter crystal		543808
+	246018625	hammer metal	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\hammer metal_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Hit_Container\Impact_Hammer\hammer metal		101964
 	261779685	footsteps water	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\317362__robinhood76__05914-walking-in-river-water-loop_29532F88.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps_Container\footsteps water		176312
 	269363699	footsteps wood	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\816804__luisa_sanchez__steps-on-wood-2-edit_E4D63486.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps_Container\footsteps wood		35084
 	269992882	wood break	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\624150__markdalderup__snapped-wood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\wood break		288836
 	342380762	footsteps leaves	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\530384__nox_sound__footsteps_boots_gritty_ground_stones_leaves_mono_859F7888.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps_Container\footsteps leaves		73976
+	360777856	hammer enemy	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\hammer enemy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Hit_Container\Impact_Hammer\hammer enemy		2880064
+	362091257	sword enemy	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\sword enemy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Hit_Container\Impact_Sword\sword enemy		36696
 	417922200	JDSherbert - Ultimate UI SFX Pack - Select - 1	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Select - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Select - 1		192708
 	442491816	3d emitter arcade machine	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\freesound_community-8-bit-moonlight-sonata-music-loop-20436_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emitter arcade machine		7301440
 	444160869	footsteps sand	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\244590__cornwallis89__gravelsand-walking-1_ACF38E27.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps_Container\footsteps sand		263400
 	481910607	cave ambience3	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\fronbondi_skegs-sfx-horror-ambience-deep-underground-in-cave-sound-effect-368274_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\cave ambience3		11248192
 	499477094	freesound_community-ambient-game-67014	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\freesound_community-ambient-game-67014_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music_Region\freesound_community-ambient-game-67014\freesound_community-ambient-game-67014		4197952
+	566872298	pickaxe metal	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\pickaxe metal_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Hit_Container\Impact_Axe\pickaxe metal		119872
 	566976459	3d emitter river	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\guillermoanaya-water-relaxing-sound-121599_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emitter river		11446336
+	577971467	pickaxe wood	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\pickaxe wood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Hit_Container\Impact_Axe\pickaxe wood		95612
 	607301071	JDSherbert - Ultimate UI SFX Pack - Popup Open - 1	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Popup Open - 1		192708
 	629920348	3d emitter windmill	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\freesound_community-windmill-26886_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emitter windmill		4154176
+	692328775	sword wood	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\sword wood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Hit_Container\Impact_Sword\sword wood		57070
 	725881145	footsteps grass	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\813389__luisa_sanchez__steps-on-grass_F553E7D0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps_Container\footsteps grass		66444
 	736013642	Contraction	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\Contraction_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Seq_HeartBeat\Contraction		72916
+	758140104	pickaxe enemy	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\pickaxe enemy_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Hit_Container\Impact_Axe\pickaxe enemy		28400
 	762191199	JDSherbert - Ultimate UI SFX Pack - Swipe - 1	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\JDSherbert - Ultimate UI SFX Pack - Swipe - 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Rand_UI_Button\JDSherbert - Ultimate UI SFX Pack - Swipe - 1		74740
 	769444930	3d emitter door	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\freesound_community-big-door-creak-103900_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emitter door		619840
 	802853182	crystal break	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\349240__natty23__glass-break-2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Destruction\crystal break		195444
 	875941240	3d emitter torch	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\soundreality-fire-crackling-sound-499636_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\3d emitter torch		15270976
 	895635071	footstepss stone	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\824433__siliconesound__feethmn-walking-down-footsteps-stone-staircase-sneaker-old-building-vienna_F59CDA80.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps_Container\footstepss stone		84356
 	936422644	footsteps dirt	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\813621__securesubset__footsteps-dirt-grass-ground-nature_18A9CA9B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Footsteps_Container\footsteps dirt		40172
+	981986794	pickaxe stone	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\pickaxe stone_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Hit_Container\Impact_Axe\pickaxe stone		141184
+	983474242	hammer wood	C:\Users\noapo\Desktop\PAUNOAAUDIO\wuwuais\Adventuriq2\.cache\Windows\SFX\hammer wood_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Hit_Container\Impact_Hammer\hammer wood		1344064
 

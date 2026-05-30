@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="133642231" Language="SFX" Hash="172496719">
+		<SoundBank Id="133642231" Language="SFX" Hash="1096503708">
 			<ObjectPath>\SoundBanks\Default Work Unit\General</ObjectPath>
 			<ShortName>General</ShortName>
 			<Path>General.bnk</Path>
@@ -204,6 +204,180 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3695342915" Name="Player_WeaponImpact" ObjectPath="\Events\Default Work Unit\Player_WeaponImpact">
+					<IncludedMemoryFiles>
+						<File Id="9461357" Language="SFX">
+							<ShortName>sword metal.wav</ShortName>
+							<Path>SFX\sword metal_10C4C929.wem</Path>
+						</File>
+						<File Id="165351178" Language="SFX">
+							<ShortName>sword stone.wav</ShortName>
+							<Path>SFX\sword stone_10C4C929.wem</Path>
+						</File>
+						<File Id="174285788" Language="SFX">
+							<ShortName>hammer stone.wav</ShortName>
+							<Path>SFX\hammer stone_10C4C929.wem</Path>
+						</File>
+						<File Id="246018625" Language="SFX">
+							<ShortName>hammer metal.wav</ShortName>
+							<Path>SFX\hammer metal_10C4C929.wem</Path>
+						</File>
+						<File Id="360777856" Language="SFX">
+							<ShortName>hammer enemy.wav</ShortName>
+							<Path>SFX\hammer enemy_10C4C929.wem</Path>
+						</File>
+						<File Id="362091257" Language="SFX">
+							<ShortName>sword enemy.wav</ShortName>
+							<Path>SFX\sword enemy_10C4C929.wem</Path>
+						</File>
+						<File Id="566872298" Language="SFX">
+							<ShortName>pickaxe metal.wav</ShortName>
+							<Path>SFX\pickaxe metal_10C4C929.wem</Path>
+						</File>
+						<File Id="577971467" Language="SFX">
+							<ShortName>pickaxe wood.wav</ShortName>
+							<Path>SFX\pickaxe wood_10C4C929.wem</Path>
+						</File>
+						<File Id="692328775" Language="SFX">
+							<ShortName>sword wood.wav</ShortName>
+							<Path>SFX\sword wood_10C4C929.wem</Path>
+						</File>
+						<File Id="758140104" Language="SFX">
+							<ShortName>pickaxe enemy.wav</ShortName>
+							<Path>SFX\pickaxe enemy_10C4C929.wem</Path>
+						</File>
+						<File Id="981986794" Language="SFX">
+							<ShortName>pickaxe stone.wav</ShortName>
+							<Path>SFX\pickaxe stone_10C4C929.wem</Path>
+						</File>
+						<File Id="983474242" Language="SFX">
+							<ShortName>hammer wood.wav</ShortName>
+							<Path>SFX\hammer wood_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{5451BA65-E76B-46F9-A79F-19A9DD97752B}">
+							<Children>
+								<SwitchContainer SwitchValue="{B4CD51E3-647A-4170-874E-BFB7EF164A8E}">
+									<Media>
+										<File Id="165351178"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{F10A6752-159B-4E7D-9862-F5269257DD67}">
+									<Media>
+										<File Id="362091257"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{5221C059-1A79-4D08-9062-477B21A2408E}">
+									<Media>
+										<File Id="692328775"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{5D37E3D6-2EBB-4FA9-99D0-1FCCF396116B}">
+									<Media>
+										<File Id="9461357"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{3C1AADA2-568C-4855-86A9-3B89110730EC}">
+							<Children>
+								<SwitchContainer SwitchValue="{B4CD51E3-647A-4170-874E-BFB7EF164A8E}">
+									<Media>
+										<File Id="165351178"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{F10A6752-159B-4E7D-9862-F5269257DD67}">
+									<Media>
+										<File Id="362091257"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{5221C059-1A79-4D08-9062-477B21A2408E}">
+									<Media>
+										<File Id="692328775"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{5D37E3D6-2EBB-4FA9-99D0-1FCCF396116B}">
+									<Media>
+										<File Id="9461357"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{E8EC9E00-F6E2-48DB-9515-E89642FF8764}">
+							<Children>
+								<SwitchContainer SwitchValue="{5D37E3D6-2EBB-4FA9-99D0-1FCCF396116B}">
+									<Media>
+										<File Id="566872298"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{F10A6752-159B-4E7D-9862-F5269257DD67}">
+									<Media>
+										<File Id="758140104"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{5221C059-1A79-4D08-9062-477B21A2408E}">
+									<Media>
+										<File Id="577971467"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{B4CD51E3-647A-4170-874E-BFB7EF164A8E}">
+									<Media>
+										<File Id="981986794"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{1CAE49CE-B77F-4342-BDC1-11BE580F0215}">
+							<Children>
+								<SwitchContainer SwitchValue="{5D37E3D6-2EBB-4FA9-99D0-1FCCF396116B}">
+									<Media>
+										<File Id="246018625"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{B4CD51E3-647A-4170-874E-BFB7EF164A8E}">
+									<Media>
+										<File Id="174285788"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{F10A6752-159B-4E7D-9862-F5269257DD67}">
+									<Media>
+										<File Id="360777856"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{5221C059-1A79-4D08-9062-477B21A2408E}">
+									<Media>
+										<File Id="983474242"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{D6653102-2A43-4653-854D-8B7B8BE36F08}">
+							<Children>
+								<SwitchContainer SwitchValue="{5D37E3D6-2EBB-4FA9-99D0-1FCCF396116B}">
+									<Media>
+										<File Id="566872298"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{F10A6752-159B-4E7D-9862-F5269257DD67}">
+									<Media>
+										<File Id="758140104"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{5221C059-1A79-4D08-9062-477B21A2408E}">
+									<Media>
+										<File Id="577971467"/>
+									</Media>
+								</SwitchContainer>
+								<SwitchContainer SwitchValue="{B4CD51E3-647A-4170-874E-BFB7EF164A8E}">
+									<Media>
+										<File Id="981986794"/>
+									</Media>
+								</SwitchContainer>
+							</Children>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
 				<Event Id="156563189" Name="UI_Button_Down" ObjectPath="\Events\Default Work Unit\UI_Button_Down">
 					<IncludedMemoryFiles>
@@ -314,6 +488,15 @@
 				<GameParameter Id="215992295" Name="Player_Health" ObjectPath="\Game Parameters\Default Work Unit\Player_Health"/>
 			</GameParameters>
 			<SwitchGroups>
+				<SwitchGroup Id="3251833556" Name="Player_Weapon_Type" ObjectPath="\Switches\Default Work Unit\Player_Weapon_Type">
+					<Switches>
+						<Switch Id="765201635" Name="Axe" ObjectPath="\Switches\Default Work Unit\Player_Weapon_Type\Axe"/>
+						<Switch Id="703486095" Name="Hammer" ObjectPath="\Switches\Default Work Unit\Player_Weapon_Type\Hammer"/>
+						<Switch Id="3732162827" Name="Dagger" ObjectPath="\Switches\Default Work Unit\Player_Weapon_Type\Dagger"/>
+						<Switch Id="490825222" Name="PickAxe" ObjectPath="\Switches\Default Work Unit\Player_Weapon_Type\PickAxe"/>
+						<Switch Id="2454616260" Name="Sword" ObjectPath="\Switches\Default Work Unit\Player_Weapon_Type\Sword"/>
+					</Switches>
+				</SwitchGroup>
 				<SwitchGroup Id="4064446173" Name="Surface_Type" ObjectPath="\Switches\Default Work Unit\Surface_Type">
 					<Switches>
 						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Surface_Type\Dirt"/>
@@ -323,6 +506,12 @@
 						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Surface_Type\Stone"/>
 						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\Surface_Type\Water"/>
 						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\Surface_Type\Wood"/>
+						<Switch Id="442447909" Name="Barrel" ObjectPath="\Switches\Default Work Unit\Surface_Type\Barrel"/>
+						<Switch Id="3098439042" Name="Crate" ObjectPath="\Switches\Default Work Unit\Surface_Type\Crate"/>
+						<Switch Id="1647104456" Name="Enemy_EvilCrawler" ObjectPath="\Switches\Default Work Unit\Surface_Type\Enemy_EvilCrawler"/>
+						<Switch Id="3065846598" Name="Enemy_EvilHead" ObjectPath="\Switches\Default Work Unit\Surface_Type\Enemy_EvilHead"/>
+						<Switch Id="3276966729" Name="Enemy_EvilSpitPlant" ObjectPath="\Switches\Default Work Unit\Surface_Type\Enemy_EvilSpitPlant"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Surface_Type\Metal"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
